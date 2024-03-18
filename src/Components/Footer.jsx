@@ -5,7 +5,7 @@ const Footer = () => {
     <>
     <footer>
       <div className="center-footer-text">
-      WE ARE A FINE <br /> ARHITECHT IN <br /> COIMBATORE
+      WE ARE A FINE <br /> ARHITECH IN <br /> COIMBATORE
       </div>
       <small className='small-color li-small'>
       DISCOVER MORE FROM OUR WEBSITE
