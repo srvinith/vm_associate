@@ -28,8 +28,7 @@ const Home = () => {
   return (
     <>
       <div className="hero-sections">
-        <div className="top-hero-section">
-
+        <div className="top-section home">
           <div className="center-text">
             <small className='mb-2 '>REALIYSIC / WHERE YOU FILL SAFE</small>
             <h1 className='mb-2 '>VM ASSOCIATES</h1>
