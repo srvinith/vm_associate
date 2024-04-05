@@ -1,7 +1,8 @@
 import React from 'react'
 import Icon from '../Assets/images/icon-svg.svg'
-import client from '../Assets/images/clients.png'
+
 import fourth from '../Assets/images/fourth.png'
+import Testimonial from './Testimonial'
 
 const Services = () => {
     return (
@@ -107,22 +108,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="testimonial">
-                    <div className="testi-box-con">
-                        <center><h2 className='fw-bold'>Few Words From Our Clients</h2></center>
-
-                        <div className="testi-content">
-                            
-                               <p className='quote-mark'> “</p> 
-                               <p>
-                               We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.
-                               </p>
-
-                             
-                            
-                        </div>
-                        <img src={client} alt="client"  className='img-fluid'/>
-
-                    </div>
+                <Testimonial/>
                 </div>
 
                 <div className="fouth-section">
