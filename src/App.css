@@ -742,5 +742,11 @@ footer ul li {
   .name-desc h6{
     font-size: 14px;
   }
+  footer ul li {
+    padding: 0px 10px;
+    white-space: none;
+    font-size: 14px;
+  }
   
+
 }
