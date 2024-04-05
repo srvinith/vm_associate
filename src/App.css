@@ -633,6 +633,7 @@ footer ul li {
   width: 60px;
   height: 60px;
   cursor: pointer;
+  object-fit: cover;
   
 }
 
