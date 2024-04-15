@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef,useEffect } from 'react'
 import secondImg from '../Assets/images/second-bg.png'
 import sec1 from '../Assets/images/sec-1.png'
 import sec2 from '../Assets/images/sec-2.png'
@@ -13,8 +13,16 @@ import prep1 from '../Assets/images/prep-1.png'
 import prep2 from '../Assets/images/prep-2.png'
 import thumb from '../Assets/images/video-thumb.png'
 import listimg from '../Assets/images/list-img.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
   const videoRef = useRef(null);
   const togglePlay = () => {
     const video = videoRef.current;
@@ -53,21 +61,21 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="counter-con">
-                <h2 className='count-num'>15+</h2>
+              <div className="counter-con" data-aos='fade-top' data-aos-delay='600'>
+                <h2 className='count-num' >15+</h2>
                 <h6 className='count-text'>Years of Experience</h6>
               </div>
 
             </div>
             <div className=" col-md-4">
-              <div className="counter-con">
+              <div className="counter-con" data-aos='fade-bottom' data-aos-delay='800'>
                 <h2 className='count-num'>100+</h2>
                 <h6 className='count-text'>Projects</h6>
               </div>
 
             </div>
             <div className="col-md-4">
-              <div className="counter-con">
+              <div className="counter-con" data-aos='fade-top' data-aos-delay='1000'>
                 <h2 className='count-num'>60+</h2>
                 <h6 className='count-text'>Teams</h6>
               </div>
@@ -83,15 +91,15 @@ const Home = () => {
 
 
         {/* ------------------arichtech--------------- */}
-        <h2 className='arcitech-text'>Architectural design </h2>
+        <h2 className='arcitech-text' data-aos='fade-top' data-aos-delay='600'>Architectural design </h2>
 
         <section>
           <div className="row">
             <div className="col-md-6 px-5">
-              <img src={sec1} alt="sec-img" className='img-fluid' />
+              <img src={sec1} alt="sec-img" className='img-fluid' data-aos='fade-left' data-aos-delay='600'/>
             </div>
-            <div className="col-md-6 px-5">
-              <div className="section-title">
+            <div className="col-md-6 px-1 md:px-5">
+              <div className="section-title" data-aos='fade-right' data-aos-delay='600'>
                 MEET THE TEAM  <br />BEHIND OUR FIRM
               </div>
               <p>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
@@ -102,15 +110,15 @@ const Home = () => {
         <section>
           <div className="row">
 
-            <div className="col-md-6 px-5">
-              <div className="section-title">
+            <div className="col-md-6 px-0 md:px-5">
+              <div className="section-title" data-aos='fade-left' data-aos-delay='600'>
                 MEET THE TEAM  <br />BEHIND OUR FIRM
               </div>
               <p>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
               </p>
             </div>
-            <div className="col-md-6 px-5">
-              <img src={sec2} alt="sec-img" className='img-fluid' />
+            <div className="col-md-6 px-1 md:px-5">
+              <img src={sec2} alt="sec-img" className='img-fluid' data-aos='fade-right' data-aos-delay='600'/>
             </div>
           </div>
         </section>
@@ -238,22 +246,22 @@ const Home = () => {
         <section>
           <div className="row">
             <div className="col-md-6">
-             <div className="main-list p-5">
-             <div className="">
-              <small>34 West Menlo — SF, CA</small>
-              <p className='fs-5 fw-semibold'>Lorem ipsum dolor sit amet tellus <br />
-                consectetur. Non ut sem tellus velit <br />
-                tempus curabitur integer </p>
+              <div className="main-list p-5">
+                <div className="">
+                  <small>34 West Menlo — SF, CA</small>
+                  <p className='fs-5 fw-semibold'>Lorem ipsum dolor sit amet tellus <br />
+                    consectetur. Non ut sem tellus velit <br />
+                    tempus curabitur integer </p>
+                </div>
+                <div className="">
+                  <small>PHONE / EMAIL</small>
+                  <p className='fs-5 fw-semibold'>+3 2393 4393 9032</p>
+                  <p className='fs-5 fw-semibold'>sales@vmassociates.com</p>
+                </div>
               </div>
-              <div className="">
-                <small>PHONE / EMAIL</small>
-                <p className='fs-5 fw-semibold'>+3 2393 4393 9032</p>
-                <p className='fs-5 fw-semibold'>sales@vmassociates.com</p>
-              </div>
-             </div>
             </div>
             <div className="col-md-6">
-              <img src={listimg} alt="listimg" className='img-fluid p-5'/>
+              <img src={listimg} alt="listimg" className='img-fluid p-5' />
             </div>
           </div>
         </section>

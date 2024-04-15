@@ -35,7 +35,7 @@ const Slider = () => {
         <h2>
         TAKE A LOOK AT <br /> OUR SERVICES
         </h2>
-        <div className="arrow-button">
+        <div className="arrow-button mob-arrow">
             <button><FaArrowLeftLong/></button>
             <button className='r-arrow'><FaArrowRightLong /></button>
         </div>

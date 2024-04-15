@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -11,16 +12,15 @@ const Footer = () => {
       DISCOVER MORE FROM OUR WEBSITE
       </small>
 
-      <ul className=''>
-        <li>Search</li>
-        <li>Next Projects</li>
-        <li>For Buy</li>
-        <li>News & Stories</li>
+      <ul >
+        <li><Link to='/about' className='footer-link'>About Us</Link></li>
+        <li><Link to='/services' className='footer-link'>Services</Link></li>
+        <li><Link to='/project' className='footer-link'>Projects</Link></li>
+        <li><Link to='/contact' className='footer-link'>Contact</Link></li>
       </ul>
 
       <div className="bottom-li small-color">
-        <p>Terms</p>
-        <p>Cookies</p>
+        
         <p>@vmassociates 2023 - developed by Illusiview</p>
       </div>
     </footer>

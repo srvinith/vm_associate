@@ -8,6 +8,7 @@ import Project from './Components/Project';
 import ProjectInd from './Components/ProjectInd';
 import About from './Components/About';
 
+
 function App() {
   return (
     <div className="App">

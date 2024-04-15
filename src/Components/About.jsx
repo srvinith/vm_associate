@@ -1,15 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import aboutTwo from '../Assets/images/about-2.png'
 import aboutthrid from '../Assets/images/about-third.png'
 import star from '../Assets/images/Star-1.svg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const About = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <>
 
             <div className="top-section About">
                 <div className="container">
                     <div className="service-main-text">
-                        <p className='sec-p'>About us</p>
+                        <p className='sec-p' >About us</p>
                         <h2 className=''>Our  Construction <br />
                             Studio</h2>
                     </div>
@@ -20,28 +28,28 @@ const About = () => {
                     <div className="row py-5">
                         <div className="col-md-7">
                             <p className='top-small-shadow'>04/06</p>
-                            <h2 className='new-sec-title'>About our VM associates</h2>
+                            <h2 className='new-sec-title' data-aos='fade-top' data-aos-delay='600'>About our VM associates</h2>
 
-                            <p className='new-list-paras'>
+                            <p className='new-list-paras' data-aos='zoom-in' data-aos-delay='1200'>
                                 If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. <br /> <br />
 
                                 If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
                             </p>
                         </div>
                         <div className="col-md-5">
-                            <img src={aboutTwo} alt="" className='img-fluid' />
+                            <img src={aboutTwo} alt="" className='img-fluid' data-aos='fade-bottom' data-aos-delay='600'/>
                         </div>
                     </div>
 
                     <div className="row py-5">
                         <div className="col-md-5">
-                            <img src={aboutthrid} alt="about-img" className='img-fluid' />
+                            <img src={aboutthrid} alt="about-img" className='img-fluid' data-aos='fade-bottom' data-aos-delay='800' onDurationChange='2s'/>
                         </div>
                         <div className="col-md-7">
 
                             <div className="about-third">
-                                <h2 className='about-third-title'>How we started</h2>
-                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend </p>
+                                <h2 className='about-third-title' data-aos='fade-left' data-aos-delay='600'>How we started</h2>
+                                <p data-aos='fade-right' data-aos-delay='600'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend </p>
                             </div>
 
                             <div className="about-third">
@@ -64,7 +72,7 @@ const About = () => {
 
 
                 <div className="banner-proj-indu">
-                    <div className="banner-box">
+                    <div className="banner-box" data-aos='fade-bottom' data-aos-delay='900'>
                         <h2>Get in Touch With Us</h2>
                         <button>CONTACT</button>
                     </div>

@@ -2,8 +2,8 @@ import React from 'react'
 import sliderOne from '../Assets/images/slider-1.png'
 import sliderTwo from '../Assets/images/slider-2.png'
 import sliderThree from '../Assets/images/slider-3.png'
-import { FaArrowRightLong } from "react-icons/fa6";
-import { FaArrowLeftLong } from "react-icons/fa6";
+// import { FaArrowRightLong } from "react-icons/fa6";
+// import { FaArrowLeftLong } from "react-icons/fa6";
 import Carousel from "react-multi-carousel";
 import '../../node_modules/react-multi-carousel/lib/styles.css'
 
