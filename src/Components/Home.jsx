@@ -1,4 +1,4 @@
-import React, { useRef,useEffect } from 'react'
+import React, { useRef } from 'react'
 import secondImg from '../Assets/images/second-bg.png'
 import sec1 from '../Assets/images/sec-1.png'
 import sec2 from '../Assets/images/sec-2.png'
@@ -13,15 +13,9 @@ import prep1 from '../Assets/images/prep-1.png'
 import prep2 from '../Assets/images/prep-2.png'
 import thumb from '../Assets/images/video-thumb.png'
 import listimg from '../Assets/images/list-img.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Home = () => {
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
 
   const videoRef = useRef(null);
   const togglePlay = () => {
@@ -39,7 +33,7 @@ const Home = () => {
         <div className="top-section home">
           <div className="center-text">
             <small className='mb-2 '>REALIYSIC / WHERE YOU FILL SAFE</small>
-            <h1 className='mb-2 '>VM ASSOCIATES</h1>
+            <h1 className='mb-2 ' data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>VM ASSOCIATES</h1>
             <p className='fs-3'>From cozy apartments to spacious family homes, we <br />
               unde. Sounds good? Start
             </p>
@@ -61,21 +55,21 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="counter-con" data-aos='fade-top' data-aos-delay='600'>
+              <div className="counter-con" data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
                 <h2 className='count-num' >15+</h2>
                 <h6 className='count-text'>Years of Experience</h6>
               </div>
 
             </div>
             <div className=" col-md-4">
-              <div className="counter-con" data-aos='fade-bottom' data-aos-delay='800'>
+              <div className="counter-con"data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
                 <h2 className='count-num'>100+</h2>
                 <h6 className='count-text'>Projects</h6>
               </div>
 
             </div>
             <div className="col-md-4">
-              <div className="counter-con" data-aos='fade-top' data-aos-delay='1000'>
+              <div className="counter-con" data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
                 <h2 className='count-num'>60+</h2>
                 <h6 className='count-text'>Teams</h6>
               </div>

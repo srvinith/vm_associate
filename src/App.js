@@ -1,15 +1,26 @@
+import { lazy, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
-import Home from './Components/Home';
 import Footer from './Components/Footer';
-import Services from './Components/Services';
-import Project from './Components/Project';
-import ProjectInd from './Components/ProjectInd';
-import About from './Components/About';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+const Home =lazy(()=>import('./Components/Home'))
+const Services =lazy(()=>import('./Components/Services'))
+const Project =lazy(()=>import('./Components/Project'))
+const ProjectInd =lazy(()=>import('./Components/ProjectInd'))
+const About =lazy(()=>import('./Components/About'))
 
 function App() {
+
+  useEffect(()=>{
+    AOS.init({
+      offset:100,
+      duration:800,
+      easing:"ease-in-sine",
+      delay:100,
+    },[])
+  })
   return (
     <div className="App">
       <Header />
