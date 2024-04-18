@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <footer>
-      <div className="center-footer-text">
+      <div className="center-footer-text" data-aos='fade-up' data-aos-delay='300'>
       WE ARE A FINE <br /> ARHITECH IN <br /> COIMBATORE
       </div>
       <small className='small-color li-small'>

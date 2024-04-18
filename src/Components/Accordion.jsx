@@ -38,7 +38,7 @@ function AccordionWithIcons() {
                 {[...Array(3).keys()].map((index) => {
                     const eventKey = `${index}`;
                     return (
-                        <div key={index} className='cards'>
+                        <div key={index} className='cards' data-aos='fade-up' data-aos-delay='400'>
                             <div className='d-flex justify-content-between align-items-center card-size'>
                                 <CustomToggle as="div" eventKey={eventKey} callback={toggleIcon} className="list-accordion">
                                     <span className='toggle-title'><span className='numb'>0{index+1}</span> Best Architect Awards In 2021</span>

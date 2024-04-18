@@ -10,8 +10,8 @@ const Services = () => {
             <div className="top-section service">
                 <div className="container">
                     <div className="service-main-text">
-                        <p className='sec-p'>Services</p>
-                        <h2 className=''>Construct Design <br />
+                        <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>Services</p>
+                        <h2 className='' data-aos='fade-right' data-aos-delay='400'>Construct Design <br />
                             that matters.</h2>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Services = () => {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-4">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -36,7 +36,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="col-md-4 mt-3">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='700'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -48,7 +48,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="col-md-4 mt-5">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='1000'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -62,7 +62,7 @@ const Services = () => {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-4">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -74,7 +74,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="col-md-4 mt-3">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='700'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -86,7 +86,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="col-md-4 mt-5">
-                            <div className="box-service">
+                            <div className="box-service" data-aos='fade-up' data-aos-delay='1000'>
                                 <div className="box-circle-img mb-4">
                                     <img src={Icon} alt="icon" />
                                 </div>
@@ -101,8 +101,8 @@ const Services = () => {
                 </div>
                 <div className="services-third-sec">
                     <div className="container">
-                        <p className='sec-p'>About nside</p>
-                        <h3 className='third-bg-text'>We're innovating the way <br />
+                        <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>About nside</p>
+                        <h3 className='third-bg-text' data-aos='fade-right' data-aos-delay='400'>We're innovating the way <br />
                             Of Construction .
                         </h3>
                     </div>
@@ -114,8 +114,8 @@ const Services = () => {
                 <div className="fouth-section">
                     <div className="container">
                         <center>
-                            <h2 className='fourth-sec-title'>Let us help you build.</h2>
-                            <p>Over 17 years of experience in creating spaces that positively impact people’s lives</p>
+                            <h2 className='fourth-sec-title' data-aos='fade-up' data-aos-delay='400'>Let us help you build.</h2>
+                            <p data-aos='fade-up' data-aos-delay='600'>Over 17 years of experience in creating spaces that positively impact people’s lives</p>
                             <img src={fourth} alt="fourth" className='img-fluid fourth-img' />
                         </center>
                     </div>

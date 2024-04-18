@@ -43,7 +43,7 @@ const Slider = () => {
 
             <Carousel responsive={responsive} >
                 <div>
-                    <div className="card-img">
+                    <div className="card-img" >
                         <img src={card1} alt="slider-img" />
                         <p className="card-text">
                             Interior Designing

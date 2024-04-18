@@ -59,11 +59,11 @@ const Testimonial = () => {
     return (
         <>
             <div className="testi-box-con">
-                <center><h2 className='fw-bold'>Few Words From Our Clients</h2></center>
+                <center><h2 className='fw-bold' data-aos='fade-up' data-aos-delay='400'>Few Words From Our Clients</h2></center>
 
                 <div className="testi-content">
                     <p className='quote-mark'> “</p>
-                    <p>
+                    <p data-aos='fade-down' data-aos-delay='400'>
                         {activeTesti.desc} {/* Display the description of the active testimonial */}
                     </p>
                 </div>

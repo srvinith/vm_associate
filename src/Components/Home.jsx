@@ -32,9 +32,9 @@ const Home = () => {
       <div className="hero-sections">
         <div className="top-section home">
           <div className="center-text">
-            <small className='mb-2 '>REALIYSIC / WHERE YOU FILL SAFE</small>
-            <h1 className='mb-2 ' data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>VM ASSOCIATES</h1>
-            <p className='fs-3'>From cozy apartments to spacious family homes, we <br />
+            <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>REALIYSIC / WHERE YOU FILL SAFE</small>
+            <h1 className='mb-2'>VM ASSOCIATES</h1>
+            <p className='fs-3' data-aos='fade-up' data-aos-delay='400' >From cozy apartments to spacious family homes, we <br />
               unde. Sounds good? Start
             </p>
           </div>
@@ -55,23 +55,23 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="counter-con" data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
-                <h2 className='count-num' >15+</h2>
-                <h6 className='count-text'>Years of Experience</h6>
+              <div className="counter-con" >
+                <h2 className='count-num' data-aos='fade-down' data-aos-delay='500'>15+</h2>
+                <h6 className='count-text' data-aos='fade-up' data-aos-delay='400'>Years of Experience</h6>
               </div>
 
             </div>
             <div className=" col-md-4">
-              <div className="counter-con"data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
-                <h2 className='count-num'>100+</h2>
-                <h6 className='count-text'>Projects</h6>
+              <div className="counter-con">
+                <h2 className='count-num' data-aos='fade-down' data-aos-delay='400'>100+</h2>
+                <h6 className='count-text' data-aos='fade-up' data-aos-delay='400'>Projects</h6>
               </div>
 
             </div>
             <div className="col-md-4">
-              <div className="counter-con" data-aos="zoom-out" data-aos-duration='500' data-aos-once='true'>
-                <h2 className='count-num'>60+</h2>
-                <h6 className='count-text'>Teams</h6>
+              <div className="counter-con">
+                <h2 className='count-num' data-aos='fade-down' data-aos-delay='400'>60+</h2>
+                <h6 className='count-text' data-aos='fade-up' data-aos-delay='400'>Teams</h6>
               </div>
 
             </div>
@@ -85,18 +85,18 @@ const Home = () => {
 
 
         {/* ------------------arichtech--------------- */}
-        <h2 className='arcitech-text' data-aos='fade-top' data-aos-delay='600'>Architectural design </h2>
+        <h2 className='arcitech-text' data-aos='fade-up' data-aos-delay='400'>Architectural design </h2>
 
         <section>
           <div className="row">
-            <div className="col-md-6 px-5">
-              <img src={sec1} alt="sec-img" className='img-fluid' data-aos='fade-left' data-aos-delay='600'/>
+            <div className="col-md-6 px-5 mb-2 md:mb-0">
+              <img src={sec1} alt="sec-img" className='img-fluid' />
             </div>
             <div className="col-md-6 px-1 md:px-5">
-              <div className="section-title" data-aos='fade-right' data-aos-delay='600'>
+              <div className="section-title" data-aos='fade-up' data-aos-delay='400'>
                 MEET THE TEAM  <br />BEHIND OUR FIRM
               </div>
-              <p>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
+              <p data-aos='fade-up' data-aos-delay='600'>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
               </p>
             </div>
           </div>
@@ -104,21 +104,21 @@ const Home = () => {
         <section>
           <div className="row">
 
-            <div className="col-md-6 px-0 md:px-5">
-              <div className="section-title" data-aos='fade-left' data-aos-delay='600'>
+            <div className="col-md-6 px-0 md:px-5 ">
+              <div className="section-title" data-aos='fade-up' data-aos-delay='400' >
                 MEET THE TEAM  <br />BEHIND OUR FIRM
               </div>
-              <p>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
+              <p data-aos='fade-up' data-aos-delay='600'>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
               </p>
             </div>
-            <div className="col-md-6 px-1 md:px-5">
-              <img src={sec2} alt="sec-img" className='img-fluid' data-aos='fade-right' data-aos-delay='600'/>
+            <div className="col-md-6 px-1 md:px-5 mt-2 md:mt-0">
+              <img src={sec2} alt="sec-img" className='img-fluid'/>
             </div>
           </div>
         </section>
         <section>
-          <div className="section-title why-us">WHY US</div>
-          <div className="section-title my-5">
+          <div className="section-title why-us" data-aos='fade-up' data-aos-delay='400'>WHY US</div>
+          <div className="section-title my-5" data-aos='fade-up' data-aos-delay='600'>
 
             WE DESIGN UNIQUE PLACES <br /> THAT TELL A STORY
 
@@ -127,8 +127,8 @@ const Home = () => {
       </div>
       <div className="banner-section">
         <div className="banner-center-text">
-          <h6>Architecture</h6>
-          <p>Yet remarkably appearance get him his projection. <br /> Diverted endeavor bed peculiar</p>
+          <h6 data-aos='fade-up' data-aos-delay='400'>Architecture</h6>
+          <p data-aos='fade-up' data-aos-delay='600'>Yet remarkably appearance get him his projection. <br /> Diverted endeavor bed peculiar</p>
         </div>
 
       </div>
