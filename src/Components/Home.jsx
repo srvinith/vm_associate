@@ -29,13 +29,15 @@ const Home = () => {
 
   return (
     <>
+    <div className='hides'>
       <div className="hero-sections">
         <div className="top-section home">
           <div className="center-text">
-            <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>REALIYSIC / WHERE YOU FILL SAFE</small>
-            <h1 className='mb-2'>VM ASSOCIATES</h1>
-            <p className='fs-3' data-aos='fade-up' data-aos-delay='400' >From cozy apartments to spacious family homes, we <br />
-              unde. Sounds good? Start
+            <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>BUILDING DREAMS , SHAPING FUTURE</small>
+            <h1 className='mb-2 px-1 md:px-0'>VM ASSOCIATES</h1>
+            <p className=' fs-4 md:fs-3 px-2 md:px-0' data-aos='fade-up' data-aos-delay='400'  >We envision spaces that tells sensational stories by revamping <br /> cozy spaces into exceptional havens.
+
+
             </p>
           </div>
         </div>
@@ -89,14 +91,17 @@ const Home = () => {
 
         <section>
           <div className="row">
-            <div className="col-md-6 px-5 mb-2 md:mb-0">
+            <div className="col-md-6 md:px-5 mb-2 md:mb-0">
               <img src={sec1} alt="sec-img" className='img-fluid' />
             </div>
-            <div className="col-md-6 px-1 md:px-5">
+            <div className="col-md-6 px-3 md:px-5">
               <div className="section-title" data-aos='fade-up' data-aos-delay='400'>
-                MEET THE TEAM  <br />BEHIND OUR FIRM
+
+                Explore the experts behind our firm
+
+
               </div>
-              <p data-aos='fade-up' data-aos-delay='600'>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
+              <p data-aos='fade-up' data-aos-delay='600' className='pt-3'>Our creations are crafted with fully provisioned designs by our Professional and Experienced Engineers. With years of experience in the industry, our Engineers possess the knowledge and skills to bring your vision to life. Driven by an intense commitment to creativity and unwavering pursuit of excellence, our engineers tailor exceptional environment , mirroring our clients' distinct personalities and lifestyles.
               </p>
             </div>
           </div>
@@ -104,15 +109,15 @@ const Home = () => {
         <section>
           <div className="row">
 
-            <div className="col-md-6 px-0 md:px-5 ">
+            <div className="col-md-6 px-3 md:px-5 ">
               <div className="section-title" data-aos='fade-up' data-aos-delay='400' >
-                MEET THE TEAM  <br />BEHIND OUR FIRM
+              Address the designs
               </div>
-              <p data-aos='fade-up' data-aos-delay='600'>Adipiscing felis ut turpis quis sed ut habitant semper eget sed at ipsum eget enim amet  nunc libero id neque iaculis consequat porttitor eu  eu porttitor sed
+              <p data-aos='fade-up' data-aos-delay='600' className='pt-3'>Immerse yourself in pinnacle of Quality and Luxury in our premium designs.A harmonious blend of style and functionality is the hallmark of our design service. We don't just build structures, we create enduring legacies through exceptional design.
               </p>
             </div>
             <div className="col-md-6 px-1 md:px-5 mt-2 md:mt-0">
-              <img src={sec2} alt="sec-img" className='img-fluid'/>
+              <img src={sec2} alt="sec-img" className='img-fluid' />
             </div>
           </div>
         </section>
@@ -120,7 +125,7 @@ const Home = () => {
           <div className="section-title why-us" data-aos='fade-up' data-aos-delay='400'>WHY US</div>
           <div className="section-title my-5" data-aos='fade-up' data-aos-delay='600'>
 
-            WE DESIGN UNIQUE PLACES <br /> THAT TELL A STORY
+          We enrich the lives of our clients and <br /> inspire them to live their best life.
 
           </div>
         </section>
@@ -128,7 +133,8 @@ const Home = () => {
       <div className="banner-section">
         <div className="banner-center-text">
           <h6 data-aos='fade-up' data-aos-delay='400'>Architecture</h6>
-          <p data-aos='fade-up' data-aos-delay='600'>Yet remarkably appearance get him his projection. <br /> Diverted endeavor bed peculiar</p>
+          <p data-aos='fade-up' data-aos-delay='600' className=''>“The greatest designs are not just functional ,They  <br /> evoke emotion and inspire awe.”</p>
+          
         </div>
 
       </div>
@@ -163,7 +169,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section>
+        <section >
           <div className="projects-title">OUR PORTFOLIO</div>
           <div className="section-title mt-3 mb-5">
             WE DESIGN UNIQUE PLACES <br /> THAT TELL A STORY
@@ -240,7 +246,7 @@ const Home = () => {
         <section>
           <div className="row">
             <div className="col-md-6">
-              <div className="main-list p-5">
+              <div className="main-list p-2 md:p-5">
                 <div className="">
                   <small>34 West Menlo — SF, CA</small>
                   <p className='fs-5 fw-semibold'>Lorem ipsum dolor sit amet tellus <br />
@@ -255,11 +261,12 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src={listimg} alt="listimg" className='img-fluid p-5' />
+              <img src={listimg} alt="listimg" className='img-fluid p-0 md:p-5' />
             </div>
           </div>
         </section>
       </div>
+    </div>
     </>
   )
 }

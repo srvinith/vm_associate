@@ -24,7 +24,7 @@ const ProjectInd = () => {
                         <div className="col-md-6">
 
                           <div className="projindu-part">
-                          <p style={{color:'#767676'}} className='fs-5' data-aos='fade-up' data-aos-delay='400'>
+                          <p style={{color:'#767676'}} className='fs-6 md:fs-5' data-aos='fade-up' data-aos-delay='400'>
                             When Creative was first practiced, it was a movement with moral, philosophical, and aesthetic underpinnings. Immediately after pioneering modernist architects sought to develop a completely new style appropriate for a new post-war social and economic order walls to support the roof.
                             </p>
 
@@ -52,7 +52,7 @@ const ProjectInd = () => {
                     </div>
 
                     <div className="service-sec-title py-4">
-                        <p className='sec-p' data-aos='fade-up' data-aos-delay='500'>Interior of Authentic Villa</p>
+                        <p className='sec-p mob-sec-p' data-aos='fade-up' data-aos-delay='500'>Interior of Authentic Villa</p>
                         <h2 data-aos='fade-up' data-aos-delay='500'>Gallery</h2>
                     </div>
 

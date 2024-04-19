@@ -23,7 +23,7 @@ function Header() {
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(!expanded)}
             className="toggels text-white">
-            {expanded ? <IoMdClose/>:<IoIosMenu/>}
+            {expanded ? <IoMdClose className='nav-icon'/>:<IoIosMenu className='nav-icon'/>}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>

@@ -1,5 +1,10 @@
 import React from 'react'
 import Icon from '../Assets/images/icon-svg.svg'
+import icTwo from '../Assets/images/ic-2.png'
+import icThree from '../Assets/images/ic-3.png'
+import icFour from '../Assets/images/ic-4.png'
+import icFive from '../Assets/images/ic-5.png'
+import icSix from '../Assets/images/ic-6.png'
 
 import fourth from '../Assets/images/fourth.png'
 import Testimonial from './Testimonial'
@@ -38,7 +43,7 @@ const Services = () => {
                         <div className="col-md-4 mt-3">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='700'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={icTwo} alt="icon" />
                                 </div>
                                 <h3 className='mb-3'>Architect design</h3>
                                 <p>
@@ -50,7 +55,7 @@ const Services = () => {
                         <div className="col-md-4 mt-5">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='1000'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={icThree} alt="icon" />
                                 </div>
                                 <h3 className='mb-3'>Planning , Construction</h3>
                                 <p>
@@ -64,7 +69,7 @@ const Services = () => {
                         <div className="col-md-4">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={icFour} alt="icon" />
                                 </div>
                                 <h3 className='mb-3'>Space Planning</h3>
                                 <p>
@@ -76,7 +81,7 @@ const Services = () => {
                         <div className="col-md-4 mt-3">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='700'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={icFive} alt="icon" />
                                 </div>
                                 <h3 className='mb-3'>Architect design</h3>
                                 <p>
@@ -88,7 +93,7 @@ const Services = () => {
                         <div className="col-md-4 mt-5">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='1000'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={icSix} alt="icon" />
                                 </div>
                                 <h3 className='mb-3'>Planning , Construction</h3>
                                 <p>

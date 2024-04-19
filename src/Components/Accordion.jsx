@@ -32,24 +32,43 @@ function AccordionWithIcons() {
         }
     };
 
+    const data=[
+        {
+            id:1,
+            title:"What types of construction projects does your company specialize in?",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. Consectetur mollitia fugit id tempora ut. Delectus."
+        },
+        {
+            id:2,
+            title:"What sets your company apart from others in the industry?",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. Consectetur mollitia fugit id tempora ut. Delectus."
+        },
+        {
+            id:3,
+            title:"What is your approach to sustainability in construction?",
+            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. ,Consectetur mollitia fugit id tempora ut. Delectus."
+        },
+    ]
+
     return (
         <div >
             <Accordion defaultActiveKey="0" >
-                {[...Array(3).keys()].map((index) => {
-                    const eventKey = `${index}`;
+                {data.map((item) => {
+                    const eventKey = `${item.id}`;
                     return (
-                        <div key={index} className='cards' data-aos='fade-up' data-aos-delay='400'>
+                        <div key={item.id} className='cards' data-aos='fade-up' data-aos-delay='400'>
                             <div className='d-flex justify-content-between align-items-center card-size'>
                                 <CustomToggle as="div" eventKey={eventKey} callback={toggleIcon} className="list-accordion">
-                                    <span className='toggle-title'><span className='numb'>0{index+1}</span> Best Architect Awards In 2021</span>
+                                    <span className='toggle-title'><span className='numb mx-1'>0{item.id+1}</span>{item.title}</span>
                                     <span className='toggleIcon'>{activeKey === eventKey ?<FaMinus /> : <FaPlus />}</span>
                                 </CustomToggle>
                             </div>
                             <Accordion.Collapse eventKey={eventKey}>
-                                <div className='my-2'>
-                                    <strong >This is the item #{index + 1}'s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div className='my-2 text-[10px]'>
+                                    {item.desc}
                                 </div>
                             </Accordion.Collapse>
+                            
                         </div>
                     );
                 })}
