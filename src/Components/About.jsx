@@ -2,11 +2,11 @@ import React from 'react'
 import aboutTwo from '../Assets/images/about-2.png'
 import aboutthrid from '../Assets/images/about-third.png'
 import star from '../Assets/images/Star-1.svg'
-
+import { useAnimation } from './Context'
 
 const About = () => {
 
-    
+    const { ref1, ref2  } = useAnimation();
 
     return (
         <>
@@ -14,7 +14,7 @@ const About = () => {
                     <div className="container">
                         <div className="service-main-text">
                             <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>About us</p>
-                            <h2 className='' data-aos='fade-right' data-aos-delay='400'>Our  Construction <br />
+                            <h2 className='' ref={ref1} >Our  Construction
                                 Studio</h2>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ const About = () => {
                                 <p className='top-small-shadow'>04/06</p>
                                 <h2 className='new-sec-title' data-aos='fade-up' data-aos-delay='600'>About our VM associates</h2>
 
-                                <p className='new-list-paras' data-aos='zoom-in' data-aos-delay='1200'>
+                                <p className='new-list-paras' ref={ref2}>
                                     If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. <br /> <br />
 
                                     If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
@@ -44,8 +44,8 @@ const About = () => {
                             <div className="col-md-7">
 
                                 <div className="about-third">
-                                    <h2 className='about-third-title' data-aos='fade-left' data-aos-delay='600'>How we started</h2>
-                                    <p data-aos='fade-up' data-aos-delay='600'>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend </p>
+                                    <h2 className='about-third-title' >How we started</h2>
+                                    <p >If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend </p>
                                 </div>
 
                                 <div className="about-third">

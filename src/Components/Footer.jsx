@@ -1,14 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { useAnimation } from './Context'
 
 const Footer = () => {
+  const {ref1} =useAnimation()
+  
   return (
     <>
     <footer>
-      <div className="center-footer-text" data-aos='fade-up' data-aos-delay='300'>
-      WE ARE A FINE <br /> ARHITECH IN <br /> COIMBATORE
+      <div className="center-footer-text"  data-aos='fade-up' data-aos-delay='400' style={{width:"600px", margin:"auto"}}>
+      WE ARE A FINE  ARHITECH IN  COIMBATORE
       </div>
-      <small className='small-color li-small'>
+      <small className='small-color li-small' ref={ref1}>
       DISCOVER MORE FROM OUR WEBSITE
       </small>
 
