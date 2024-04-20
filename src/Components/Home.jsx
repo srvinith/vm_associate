@@ -13,6 +13,7 @@ import prep1 from '../Assets/images/prep-1.png'
 import prep2 from '../Assets/images/prep-2.png'
 import thumb from '../Assets/images/video-thumb.png'
 import listimg from '../Assets/images/list-img.png'
+import Marquee from 'react-fast-marquee'
 
 
 const Home = () => {
@@ -29,8 +30,7 @@ const Home = () => {
 
   return (
     <>
-    <div className='hides'>
-      <div className="hero-sections">
+     <div className="hero-sections">
         <div className="top-section home">
           <div className="center-text">
             <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>BUILDING DREAMS , SHAPING FUTURE</small>
@@ -46,10 +46,10 @@ const Home = () => {
         </div>
       </div>
       {/* ----------------torquee text---------- */}
-      <marquee className="torque-Text ">
+      <Marquee className="torque-Text ">
 
         <h2 >EXTERIOR  CONSULTING  AND  CONSTRUCTION</h2>
-      </marquee>
+      </Marquee>
 
 
       {/* ---------------total projects count ------------------- */}
@@ -266,7 +266,6 @@ const Home = () => {
           </div>
         </section>
       </div>
-    </div>
     </>
   )
 }

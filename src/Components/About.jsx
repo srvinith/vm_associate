@@ -1,21 +1,16 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import aboutTwo from '../Assets/images/about-2.png'
 import aboutthrid from '../Assets/images/about-third.png'
 import star from '../Assets/images/Star-1.svg'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const About = () => {
 
-    useEffect(() => {
-        AOS.init();
-    }, []);
+    
 
     return (
         <>
-            <div className='hides'>
-
-                <div className="top-section About">
+              <div className="top-section About">
                     <div className="container">
                         <div className="service-main-text">
                             <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>About us</p>
@@ -80,7 +75,6 @@ const About = () => {
                     </div>
 
                 </div>
-            </div>
         </>
     )
 }
