@@ -2,6 +2,7 @@ import React from 'react'
 import aboutTwo from '../Assets/images/about-2.png'
 import aboutthrid from '../Assets/images/about-third.png'
 import star from '../Assets/images/Star-1.svg'
+// import TextAnimation from './TextAnimation'
 
 const About = () => {
 
@@ -72,6 +73,8 @@ const About = () => {
                     </div>
 
                 </div>
+
+                {/* <TextAnimation /> */}
         </>
     )
 }

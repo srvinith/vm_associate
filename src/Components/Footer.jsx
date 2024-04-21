@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
     <footer>
-      <div className="center-footer-text"  data-aos='fade-up' data-aos-delay='400' style={{width:"600px", margin:"auto"}}>
+      <div className="center-footer-text footer-fz"  data-aos='fade-up' data-aos-delay='400'>
       WE ARE A FINE  ARHITECH IN  COIMBATORE
       </div>
       <small className='small-color li-small' >

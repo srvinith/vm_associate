@@ -54,7 +54,7 @@ const Home = () => {
   return (
     <>
      <div className="hero-sections">
-        <div className="top-section home">
+        <div className="home">
           <div className="center-text page">
             <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>BUILDING DREAMS , SHAPING FUTURE</small>
             <h1 className='mb-2 px-1 md:px-0'>VM ASSOCIATES</h1>
