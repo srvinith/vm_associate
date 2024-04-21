@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { useAnimation } from './Context'
+
 
 const Footer = () => {
-  const {ref1} =useAnimation()
+  
   
   return (
     <>
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="center-footer-text"  data-aos='fade-up' data-aos-delay='400' style={{width:"600px", margin:"auto"}}>
       WE ARE A FINE  ARHITECH IN  COIMBATORE
       </div>
-      <small className='small-color li-small' ref={ref1}>
+      <small className='small-color li-small' >
       DISCOVER MORE FROM OUR WEBSITE
       </small>
 

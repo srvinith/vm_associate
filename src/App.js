@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Suspense } from 'react';
-import { AnimationProvider } from './Components/Context';
+// import { AnimationProvider } from './Components/Context';
 const Home = lazy(() => import('./Components/Home'))
 const Services = lazy(() => import('./Components/Services'))
 const Project = lazy(() => import('./Components/Project'))
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Suspense fallback="">
-      <AnimationProvider>
+      
 
         <Header />
         <Routes>
@@ -37,7 +37,7 @@ function App() {
           <Route path="/projectindu" element={<ProjectInd />} />
         </Routes>
         <Footer />
-      </AnimationProvider>
+      
       </Suspense>
     </div>
 

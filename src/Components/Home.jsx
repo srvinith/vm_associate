@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef} from 'react'
 import secondImg from '../Assets/images/second-bg.png'
 import sec1 from '../Assets/images/sec-1.png'
 import sec2 from '../Assets/images/sec-2.png'
@@ -14,9 +14,32 @@ import prep2 from '../Assets/images/prep-2.png'
 import thumb from '../Assets/images/video-thumb.png'
 import listimg from '../Assets/images/list-img.png'
 import Marquee from 'react-fast-marquee'
+// import Splitting from 'splitting';
+// import '../../node_modules/splitting/dist/splitting.css';
+// import ScrollOut from 'scroll-out';
 
 
 const Home = () => {
+
+  // useEffect(() => {
+  //   // Initialize Splitting and ScrollOut
+  //   // eslint-disable-next-line no-unused-vars
+  //   const splittingInstance = Splitting();
+  //   // eslint-disable-next-line no-unused-vars
+  //   const scrollOutInstance = ScrollOut({
+  //     targets: ".word",
+  //     scrollingElement: ".page"
+  //   });
+
+  //   // Cleanup function if necessary
+  //   return () => {
+  //     scrollOutInstance.teardown(); // If the ScrollOut library supports a teardown method
+  //   };
+  // }, []);
+
+
+
+
 
   const videoRef = useRef(null);
   const togglePlay = () => {
@@ -32,17 +55,15 @@ const Home = () => {
     <>
      <div className="hero-sections">
         <div className="top-section home">
-          <div className="center-text">
+          <div className="center-text page">
             <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>BUILDING DREAMS , SHAPING FUTURE</small>
             <h1 className='mb-2 px-1 md:px-0'>VM ASSOCIATES</h1>
-            <p className=' fs-4 md:fs-3 px-2 md:px-0' data-aos='fade-up' data-aos-delay='400'  >We envision spaces that tells sensational stories by revamping <br /> cozy spaces into exceptional havens.
-
-
+            <p className=' fs-4 md:fs-3 px-2 md:px-0 word'  >We envision spaces that tells sensational stories by revamping <br /> cozy spaces into exceptional havens.
             </p>
           </div>
         </div>
         <div className="second-hero-section">
-          <img src={secondImg} alt="home-img" />
+          <img src={secondImg} alt="home-img"  loading="lazy"/>
         </div>
       </div>
       {/* ----------------torquee text---------- */}
@@ -92,7 +113,7 @@ const Home = () => {
         <section>
           <div className="row">
             <div className="col-md-6 md:px-5 mb-2 md:mb-0">
-              <img src={sec1} alt="sec-img" className='img-fluid' />
+              <img src={sec1} alt="sec-img" className='img-fluid' loading="lazy" />
             </div>
             <div className="col-md-6 px-3 md:px-5">
               <div className="section-title" data-aos='fade-up' data-aos-delay='400'>
@@ -117,7 +138,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-md-6 px-1 md:px-5 mt-2 md:mt-0">
-              <img src={sec2} alt="sec-img" className='img-fluid' />
+              <img src={sec2} alt="sec-img" className='img-fluid' loading="lazy"/>
             </div>
           </div>
         </section>
@@ -159,11 +180,11 @@ const Home = () => {
           <div className="img-boxes">
             <div className="row mt-5">
               <div className="col-md-6">
-                <img src={prj1} alt="prj1" className='img-fluid' />
+                <img src={prj1} alt="prj1" className='img-fluid' loading="lazy"/>
               </div>
               <div className="col-md-6">
-                <img src={prj2} alt="prj2" className='img-fluid mb-4 mob-img' />
-                <img src={prj3} alt="prj3" className='img-fluid' />
+                <img src={prj2} alt="prj2" className='img-fluid mb-4 mob-img' loading="lazy" />
+                <img src={prj3} alt="prj3" className='img-fluid' loading="lazy"/>
               </div>
             </div>
           </div>
@@ -177,10 +198,10 @@ const Home = () => {
 
           <div className="row">
             <div className="col-md-6">
-              <img src={prjb1} alt="prjb1" className='img-fluid' />
+              <img src={prjb1} alt="prjb1" className='img-fluid' loading="lazy"/>
             </div>
             <div className="col-md-6">
-              <img src={prjb2} alt="prjb1" className='img-fluid mob-img' />
+              <img src={prjb2} alt="prjb1" className='img-fluid mob-img' loading="lazy"/>
             </div>
           </div>
         </section>
@@ -202,10 +223,10 @@ const Home = () => {
 
           <div className="row">
             <div className="col-md-6">
-              <img src={prep1} alt="prep1" className='img-fluid p-3' />
+              <img src={prep1} alt="prep1" className='img-fluid p-3' loading="lazy"/>
             </div>
             <div className="col-md-6">
-              <img src={prep2} alt="prep2" className='img-fluid p-3' />
+              <img src={prep2} alt="prep2" className='img-fluid p-3' loading="lazy"/>
             </div>
           </div>
           <div className="d-flex items-center justify-content-between check-mob">
@@ -261,7 +282,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src={listimg} alt="listimg" className='img-fluid p-0 md:p-5' />
+              <img src={listimg} alt="listimg" className='img-fluid p-0 md:p-5' loading="lazy"/>
             </div>
           </div>
         </section>

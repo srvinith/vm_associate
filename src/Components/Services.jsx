@@ -31,7 +31,7 @@ const Services = () => {
                         <div className="col-md-4">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                 <div className="box-circle-img mb-4">
-                                    <img src={Icon} alt="icon" />
+                                    <img src={Icon} alt="icon"  />
                                 </div>
                                 <h3 className='mb-3'>Space Planning</h3>
                                 <p>
@@ -121,7 +121,7 @@ const Services = () => {
                         <center>
                             <h2 className='fourth-sec-title' data-aos='fade-up' data-aos-delay='400'>Let us help you build.</h2>
                             <p data-aos='fade-up' data-aos-delay='600'>Over 17 years of experience in creating spaces that positively impact people’s lives</p>
-                            <img src={fourth} alt="fourth" className='img-fluid fourth-img' />
+                            <img src={fourth} alt="fourth" loading='lazy' className='img-fluid fourth-img' />
                         </center>
                     </div>
                 </div>

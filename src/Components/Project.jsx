@@ -38,28 +38,28 @@ const Project = () => {
                         <div className="col-md-9">
                             <div className="wrapper-card">
                                 <a className="cardss" data-aos='fade-up' data-aos-delay='400' href='projectindu'>
-                                    <img src={cardOne} alt="card-img" className='img-fluid' />
+                                    <img src={cardOne} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Wildstone Infra Hotel</h6>
                                         <p>2715 Ash Dr. San Jose, South Dakota</p>
                                     </div>
                                 </a>
                                 <div className="cardss " data-aos='fade-up' data-aos-delay='600'>
-                                    <img src={cardTwo} alt="card-img" className='img-fluid' />
+                                    <img src={cardTwo} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Wish Stone Building</h6>
                                         <p>2972 Westheimer Rd. Santa Ana, Illinois </p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='400'>
-                                    <img src={cardThree} alt="card-img" className='img-fluid' />
+                                    <img src={cardThree} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Mr. Parkinston’s House</h6>
                                         <p>3517 W. Gray St. Utica, Pennsylvania</p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='600'> 
-                                    <img src={cardFour} alt="card-img" className='img-fluid' />
+                                    <img src={cardFour} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Oregano Height</h6>
                                         <p>2464 Royal Ln. Mesa, New Jersey</p>
@@ -74,7 +74,7 @@ const Project = () => {
                     <div className="row my-5">
 
                         <div className="col-md-5">
-                            <img src={cardImgSecond} alt="cardImg" className='card-second-img' data-aos='fade-left' data-aos-delay='400'/>
+                            <img src={cardImgSecond} alt="cardImg" loading='lazy' className='card-second-img' data-aos='fade-left' data-aos-delay='400'/>
                         </div>
                         <div className="col-md-7">
                             <div className="p-4 list-para">
@@ -108,10 +108,10 @@ const Project = () => {
 
                     <div className="row my-5">
                         <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
-                            <img src={projImgOne} alt="proj-img" className='img-fluid mob-img'  />
+                            <img src={projImgOne} alt="proj-img" loading='lazy' className='img-fluid mob-img'  />
                         </div>
                         <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
-                            <img src={projImgTwo} alt="proj-img" className='img-fluid' />
+                            <img src={projImgTwo} alt="proj-img" loading='lazy' className='img-fluid' />
                         </div>
                     </div>
                 </div>
