@@ -3,7 +3,7 @@ import testiOne from '../Assets/images/testi-1.png'
 import testiTwo from '../Assets/images/testi-2.png'
 import testiThree from '../Assets/images/testi-3.png'
 import testiFour from '../Assets/images/testi-4.png'
-import testiFive from '../Assets/images/testi-5.png'
+// import testiFive from '../Assets/images/testi-5.png'
 
 
 const Testimonial = () => {
@@ -33,13 +33,6 @@ const Testimonial = () => {
             id: 4,
             desc: '   We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product. 4',
             img: testiFour,
-            name: 'Jane Cooper',
-            desgination: 'CEO, ABC Corporation'
-        },
-        {
-            id: 5,
-            desc: ' We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product ',
-            img: testiFive,
             name: 'Jane Cooper',
             desgination: 'CEO, ABC Corporation'
         }

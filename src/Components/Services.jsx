@@ -5,7 +5,6 @@ import icThree from '../Assets/images/ic-3.png'
 import icFour from '../Assets/images/ic-4.png'
 import icFive from '../Assets/images/ic-5.png'
 import icSix from '../Assets/images/ic-6.png'
-
 import fourth from '../Assets/images/fourth.png'
 import Testimonial from './Testimonial'
 

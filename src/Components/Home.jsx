@@ -66,7 +66,9 @@ const Home = () => {
           <img src={secondImg} alt="home-img"  loading="lazy"/>
         </div>
       </div>
+
       {/* ----------------torquee text---------- */}
+      
       <Marquee className="torque-Text ">
 
         <h2 >EXTERIOR  CONSULTING  AND  CONSTRUCTION</h2>

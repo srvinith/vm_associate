@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useLocation } from 'react-router-dom';
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
+import logo from '../Assets/images/logo.png'
 
 
 
@@ -18,7 +19,7 @@ function Header() {
     <div className="position-absolute top-0 end-0 w-100 navbar-top ">
       <Navbar expand="lg" className="text-white" expanded={expanded}>
         <Container>
-          <Navbar.Brand className="text-white fs-3" href="/">VM ASSOCIATES</Navbar.Brand>
+          <Navbar.Brand className="text-white fs-3" href="/"><img src={logo} alt="logo" className='img-fluid logo' /></Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(!expanded)}
