@@ -1,4 +1,4 @@
-import React, { useRef} from 'react'
+import React, { useRef, useEffect} from 'react'
 import secondImg from '../Assets/images/second-bg.png'
 import sec1 from '../Assets/images/sec-1.png'
 import sec2 from '../Assets/images/sec-2.png'
@@ -14,6 +14,7 @@ import prep2 from '../Assets/images/prep-2.png'
 import thumb from '../Assets/images/video-thumb.png'
 import listimg from '../Assets/images/list-img.png'
 import Marquee from 'react-fast-marquee'
+import gsap from 'gsap/all'
 // import Splitting from 'splitting';
 // import '../../node_modules/splitting/dist/splitting.css';
 // import ScrollOut from 'scroll-out';
@@ -38,7 +39,18 @@ const Home = () => {
   // }, []);
 
 
-
+   useEffect(()=>{
+    const t1 =gsap.timeline();
+    t1.from(".gsap-text",{
+      y:200,
+      ease:"power4.out",
+      delay:1,
+      duration:1.8,
+      stagger:{
+        amount:0.4,
+      },
+    })
+   })
 
 
   const videoRef = useRef(null);
@@ -68,7 +80,7 @@ const Home = () => {
       </div>
 
       {/* ----------------torquee text---------- */}
-      
+
       <Marquee className="torque-Text ">
 
         <h2 >EXTERIOR  CONSULTING  AND  CONSTRUCTION</h2>
@@ -194,7 +206,7 @@ const Home = () => {
 
         <section >
           <div className="projects-title">OUR PORTFOLIO</div>
-          <div className="section-title mt-3 mb-5">
+          <div className="section-title mt-3 mb-5 gsap-text">
             WE DESIGN UNIQUE PLACES <br /> THAT TELL A STORY
           </div>
 
