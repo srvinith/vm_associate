@@ -69,7 +69,7 @@ const Home = () => {
         <div className="home">
           <div className="center-text page">
             <small className='mb-2' data-aos='fade-up' data-aos-delay='400'>BUILDING DREAMS , SHAPING FUTURE</small>
-            <h1 className='mb-2 px-1 md:px-0'>VM ASSOCIATES</h1>
+            <h2 className='mb-2 px-1 md:px-0 hero-text'>VM ASSOCIATES</h2>
             <p className=' fs-4 md:fs-3 px-2 md:px-0 word'  >We envision spaces that tells sensational stories by revamping <br /> cozy spaces into exceptional havens.
             </p>
           </div>
@@ -122,6 +122,7 @@ const Home = () => {
 
 
         {/* ------------------arichtech--------------- */}
+
         <h2 className='arcitech-text' data-aos='fade-up' data-aos-delay='400'>Architectural design </h2>
 
         <section>

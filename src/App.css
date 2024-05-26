@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 :root {
-  --primary-color: #C9A45D;
+  --primary-color: #c98d1d;
   --secondary-color: #202020;
 }
 
@@ -24,16 +26,22 @@ body {
   font-family: inter;
 }
 
-.hides{
+.hero-text{
+  font-family: "Poetsen One", sans-serif;
+
+}
+
+.hides {
   overflow: hidden;
 }
 
-.logo{
+.logo {
 
   width: 60px;
   height: 60px;
   object-fit: cover;
 }
+
 .top-section {
   width: 100%;
   height: 100vh;
@@ -71,7 +79,8 @@ body {
   align-items: center;
   justify-content: left;
 }
-.About{
+
+.About {
   background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.5)), url(./Assets/images/about-1.png);
   background-position: center;
   background-size: cover;
@@ -182,9 +191,9 @@ section {
   color: #fff;
 }
 
-.center-text h1 {
+.center-text h2 {
   font-size: 120px;
-  font-weight: 400;
+  font-weight: 200 !important;
 }
 
 .torque-Text {
@@ -221,7 +230,8 @@ section {
   position: relative;
 
 }
-.card-img::after{
+
+.card-img::after {
   background-color: rgb(0, 0, 0, 0.3);
   content: '';
   overflow: hidden;
@@ -251,7 +261,7 @@ section {
   left: 30px;
   padding: 20px;
   z-index: 1;
- 
+
 }
 
 .slider-top-con {
@@ -495,7 +505,8 @@ footer {
   width: 100%;
   background-color: #1E1E1E;
 }
-.footer-fz{
+
+.footer-fz {
   max-width: 600px;
   margin: auto;
 }
@@ -577,7 +588,8 @@ footer ul li {
   height: auto;
   padding: 100px 0px;
 }
-.projindu-section{
+
+.projindu-section {
   background-color: #fff;
   height: auto;
   padding-top: 100px;
@@ -606,7 +618,8 @@ footer ul li {
   justify-content: center;
   border-radius: 50%;
 }
-.box-circle-img img{
+
+.box-circle-img img {
   object-fit: contain;
   width: 80%;
   height: 80%;
@@ -694,10 +707,12 @@ footer ul li {
   gap: 5px;
 
 }
-.name{
+
+.name {
   padding: 0;
   margin: 0;
 }
+
 .name-descs {
   display: none;
 }
@@ -831,24 +846,27 @@ footer ul li {
 }
 
 
-.projindu-part ul li{
+.projindu-part ul li {
   list-style: none;
   padding: 10px 0;
 }
 
-.highlight{
+.highlight {
   color: 2B4248;
   font-weight: 500;
   font-size: 22px;
 }
-.shadow-text{
+
+.shadow-text {
   color: #767676;
 }
-.newslider,.carousel-item{
+
+.newslider,
+.carousel-item {
   height: 100vh;
 }
 
-.banner-proj-indu{
+.banner-proj-indu {
   margin-top: 100px;
   background-image: url(./Assets/images/induprojBanner.png);
   background-position: center;
@@ -859,7 +877,8 @@ footer ul li {
   align-items: center;
   justify-content: center;
 }
-.about-bann{
+
+.about-bann {
   margin-top: 100px;
   background-image: url(./Assets/images/about-sec-banner.png);
   background-position: center;
@@ -871,7 +890,7 @@ footer ul li {
   justify-content: center;
 }
 
-.banner-box{
+.banner-box {
   background-color: #fff;
   width: 450px;
   height: 200px;
@@ -881,14 +900,17 @@ footer ul li {
   justify-content: center;
   flex-direction: column;
 }
-.banner-box h2{
+
+.banner-box h2 {
   font-family: outfit;
   font-size: 40px;
 }
-.top-small-shadow{
+
+.top-small-shadow {
   color: #767676;
 }
-.new-sec-title{
+
+.new-sec-title {
   font-family: outfit;
   font-size: 50px;
   font-weight: 400;
@@ -896,24 +918,27 @@ footer ul li {
   color: #2B4248;
 }
 
-.new-list-paras{
+.new-list-paras {
   padding-right: 50px;
   color: #767676;
   font-size: 20px;
 }
-.about-third{
+
+.about-third {
   padding-left: 80px;
 }
-.about-third-title{
+
+.about-third-title {
   font-family: outfit;
   color: #2B4248;
 }
-.about-third p{
+
+.about-third p {
   color: #767676;
   font-size: 20px;
 }
 
-.banner-box button{
+.banner-box button {
   background-color: #C9A45D;
   border: none;
   outline: none;
@@ -926,6 +951,7 @@ footer ul li {
   color: #fff;
   text-decoration: none;
 }
+
 @media screen and (max-width:768px) {
   .center-text h1 {
     font-size: 50px;
@@ -987,12 +1013,17 @@ footer ul li {
     font-size: 30px;
     height: 50vh;
   }
+
   .navbar-toggler {
-    border: none !important; /* Remove border */
-    background: none !important; /* Remove background if needed */
-    outline: none !important; /* Remove focus outline */
-    box-shadow: none !important; /* Remove box shadow if present */
-}
+    border: none !important;
+    /* Remove border */
+    background: none !important;
+    /* Remove background if needed */
+    outline: none !important;
+    /* Remove focus outline */
+    box-shadow: none !important;
+    /* Remove box shadow if present */
+  }
 
   footer {
     height: 80vh;
@@ -1032,12 +1063,13 @@ footer ul li {
     left: 0;
     width: 100%;
     z-index: -1;
-    
+
   }
 
-  .mob-arrow{
+  .mob-arrow {
     display: none;
   }
+
   .nav-links {
     width: fit-content;
     margin-bottom: 20px;
@@ -1047,7 +1079,8 @@ footer ul li {
     height: auto;
     padding: 10px;
   }
-  .quote-mark{
+
+  .quote-mark {
     margin-top: 10px;
   }
 
@@ -1062,113 +1095,140 @@ footer ul li {
   }
 
   /* about sec */
-  .new-sec-title{
+  .new-sec-title {
     font-size: 30px;
   }
-  .new-list-paras{
+
+  .new-list-paras {
     font-size: 16px;
     padding-right: 0px;
   }
+
   .about-third {
     padding-left: 0px;
   }
-  .about-third p{
+
+  .about-third p {
     font-size: 16px;
   }
-  .banner-proj-indu, .about-bann{
+
+  .banner-proj-indu,
+  .about-bann {
     margin-top: 50px;
     height: 50vh;
   }
-  .banner-box h2{
+
+  .banner-box h2 {
     font-size: 20px;
   }
-  .banner-box{
+
+  .banner-box {
     width: 80%;
     margin: 0 auto;
     height: auto;
     padding: 20px;
   }
-  .project-showcase{
+
+  .project-showcase {
     display: flex;
   }
-  .cardss{
+
+  .cardss {
     width: 80%;
     margin: 0 auto;
   }
-  .card-second-img{
+
+  .card-second-img {
     display: none;
   }
-  .project-title-section{
+
+  .project-title-section {
     font-size: 30px;
   }
-  .project-sec-para{
+
+  .project-sec-para {
     padding-left: 0;
     font-size: 16px;
   }
-  .mob-img{
+
+  .mob-img {
     margin-bottom: 20px;
   }
-  .project-banner-sec{
+
+  .project-banner-sec {
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
   }
-  .project-banner-sec h2{
+
+  .project-banner-sec h2 {
     font-size: 20px;
     text-align: center;
   }
-  .project-banner-sec button{
+
+  .project-banner-sec button {
     margin-top: 10px;
   }
+
   .projindu-part {
     padding-left: 0px;
     font-size: 16px;
     margin-top: 10px;
   }
-  .mob-list{
+
+  .mob-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  .mob-list li{
+
+  .mob-list li {
     width: 50%;
   }
-  .arcitech-text::after{
+
+  .arcitech-text::after {
     display: none;
   }
 
-  .sec-mob-overleap{
+  .sec-mob-overleap {
     position: sticky;
     top: 30vh;
   }
-  .overleap{
+
+  .overleap {
     position: relative;
     top: 30px;
     height: 100vh;
   }
-  .nav-icon{
+
+  .nav-icon {
     font-size: 50px;
   }
+
   .top-section {
     height: 50vh;
   }
-  .services-third-sec{
+
+  .services-third-sec {
     height: 50vh;
   }
+
   .testi-profile img {
     width: 40px;
     height: 40px;
   }
+
   .mob-sec-p {
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    letter-spacing:0.1cm;
+    letter-spacing: 0.1cm;
   }
-  .footer-fz{
+
+  .footer-fz {
     max-width: 3 00px;
     margin: auto;
   }
-  
+
 
 }

@@ -24,7 +24,7 @@ const Footer = () => {
 
       <div className="bottom-li small-color">
         
-        <p>@vmassociates 2023 - developed by Illusiview</p>
+        <p>@vmassociates 2024 - developed by Illusiview</p>
       </div>
     </footer>
     </>

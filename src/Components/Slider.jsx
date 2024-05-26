@@ -63,7 +63,7 @@ const Slider = () => {
                     <div className="card-img" >
                         <img src={card1} alt="slider-img" />
                         <p className="card-text">
-                            Interior Designing
+                            Commerical Building
                         </p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Slider = () => {
                     <div className="card-img">
                         <img src={card2} alt="slider-img" />
                         <p className="card-text">
-                            Interior Designing
+                        Residential Building
                         </p>
                     </div>
                 </div>
@@ -79,7 +79,15 @@ const Slider = () => {
                     <div className="card-img">
                         <img src={card3} alt="slider-img" />
                         <p className="card-text">
-                            Interior Designing
+                            Villas
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div className="card-img">
+                        <img src={card1} alt="slider-img" />
+                        <p className="card-text">
+                        Appratment
                         </p>
                     </div>
                 </div>
