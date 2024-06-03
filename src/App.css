@@ -26,7 +26,7 @@ body {
   font-family: inter;
 }
 
-.hero-text{
+.hero-text {
   font-family: "Poetsen One", sans-serif;
 
 }
@@ -1231,4 +1231,62 @@ footer ul li {
   }
 
 
+}
+
+
+/* HTML: <div class="loader"></div> */
+.preloader{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  width: 40px;
+  aspect-ratio: 1;
+  display: grid;
+  animation: l8-0 1.5s infinite linear;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  grid-area: 1/1;
+  background: var(--primary-color);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%);
+  animation: inherit;
+  animation-name: l8-1;
+}
+
+.loader:after {
+  --s: -1;
+}
+
+@keyframes l8-0 {
+  66% {
+    transform: skewX(0deg)
+  }
+
+  80%,
+  100% {
+    transform: skewX(-45deg)
+  }
+}
+
+@keyframes l8-1 {
+  0% {
+    transform: scale(var(--s, 1)) translate(-0.5px, 0)
+  }
+
+  33% {
+    transform: scale(var(--s, 1)) translate(calc(1px - 50%), calc(1px - 50%))
+  }
+
+  66% {
+    transform: scale(var(--s, 1)) translate(calc(1px - 50%), 0%)
+  }
+
+  100% {
+    transform: scale(var(--s, 1)) translate(calc(0.5px - 50%), 0%)
+  }
 }

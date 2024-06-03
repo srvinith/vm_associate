@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Preloader from './Components/Preloader'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Suspense } from 'react';
@@ -25,7 +26,7 @@ function App() {
   })
   return (
     <div className="App">
-      <Suspense fallback="">
+      <Suspense fallback={<Preloader/>}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
