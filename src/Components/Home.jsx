@@ -262,8 +262,8 @@ const Home = () => {
                 </div>
                 <div className="">
                   <small>PHONE / EMAIL</small>
-                  <p className='fs-5 fw-semibold'>+3 2393 4393 9032</p>
-                  <p className='fs-5 fw-semibold'>sales@vmassociates.com</p>
+                  <p className='fs-5 fw-semibold'>+91 97882 20868</p>
+                  <p className='fs-5 fw-semibold'>info.vmassociatescbe@gmail.com</p>
                 </div>
               </div>
             </div>
