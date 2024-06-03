@@ -1266,6 +1266,10 @@ footer {
     margin: auto;
   }
 
+  .form-box input{
+    width: 80%;
+  }
+
 
 }
 
