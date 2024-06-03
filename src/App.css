@@ -1326,3 +1326,30 @@ footer {
     transform: scale(var(--s, 1)) translate(calc(0.5px - 50%), 0%)
   }
 }
+
+.contactform{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.close-btn{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+
+}
