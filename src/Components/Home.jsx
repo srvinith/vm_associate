@@ -1,18 +1,6 @@
 import React, { useEffect } from 'react'
-import secondImg from '../Assets/images/second-bg.png'
-import sec1 from '../Assets/images/sec-1.png'
-import sec2 from '../Assets/images/sec-2.png'
 import Slider from './Slider'
 import AccordionWithIcons from './Accordion'
-import prj1 from '../Assets/images/prj-1.png'
-import prj2 from '../Assets/images/prj-2.png'
-import prj3 from '../Assets/images/prj-3.png'
-import prjb1 from '../Assets/images/prjb-1.png'
-import prjb2 from '../Assets/images/prjb-2.png'
-import prep1 from '../Assets/images/prep-1.png'
-import prep2 from '../Assets/images/prep-2.png'
-import thumb from '../Assets/images/video-thumb.png'
-import listimg from '../Assets/images/list-img.png'
 import Marquee from 'react-fast-marquee'
 import gsap from 'gsap/all'
 import CounterNum from './CounterNum'
@@ -68,7 +56,7 @@ const Home = () => {
           </div>
         </div>
         <div className="second-hero-section">
-          <img src={secondImg} alt="home-img" loading="lazy" />
+          <img src="https://vmassociatescbe.com/vm%20associates/images/second-bg.png" alt="home-img" loading="lazy" />
         </div>
       </div>
 
@@ -93,7 +81,7 @@ const Home = () => {
         <section>
           <div className="row">
             <div className="col-md-6 md:px-5 mb-2 md:mb-0">
-              <img src={sec1} alt="sec-img" className='img-fluid' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/sec-1.png" alt="sec-img" className='img-fluid' loading="lazy" />
             </div>
             <div className="col-md-6 px-3 md:px-5">
               <div className="section-title" data-aos='fade-up' data-aos-delay='400'>
@@ -118,7 +106,7 @@ const Home = () => {
               </p>
             </div>
             <div className="col-md-6 px-1 md:px-5 mt-2 md:mt-0">
-              <img src={sec2} alt="sec-img" className='img-fluid' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/sec-2.png" alt="sec-img" className='img-fluid' loading="lazy" />
             </div>
           </div>
         </section>
@@ -160,11 +148,11 @@ const Home = () => {
           <div className="img-boxes">
             <div className="row mt-5">
               <div className="col-md-6">
-                <img src={prj1} alt="prj1" className='img-fluid' loading="lazy" />
+                <img src="https://vmassociatescbe.com/vm%20associates/images/prj-1.png" alt="prj1" className='img-fluid' loading="lazy" />
               </div>
               <div className="col-md-6">
-                <img src={prj2} alt="prj2" className='img-fluid mb-4 mob-img' loading="lazy" />
-                <img src={prj3} alt="prj3" className='img-fluid' loading="lazy" />
+                <img src="https://vmassociatescbe.com/vm%20associates/images/prj-2.png" alt="prj2" className='img-fluid mb-4 mob-img' loading="lazy" />
+                <img src="https://vmassociatescbe.com/vm%20associates/images/prj-3.png" alt="prj3" className='img-fluid' loading="lazy" />
               </div>
             </div>
           </div>
@@ -178,10 +166,10 @@ const Home = () => {
 
           <div className="row">
             <div className="col-md-6">
-              <img src={prjb1} alt="prjb1" className='img-fluid' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/prjb-1.png" alt="prjb1" className='img-fluid' loading="lazy" />
             </div>
             <div className="col-md-6">
-              <img src={prjb2} alt="prjb1" className='img-fluid mob-img' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/prjb-2.png" alt="prjb1" className='img-fluid mob-img' loading="lazy" />
             </div>
           </div>
         </section>
@@ -203,10 +191,10 @@ const Home = () => {
 
           <div className="row">
             <div className="col-md-6">
-              <img src={prep1} alt="prep1" className='img-fluid p-3' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/prep-1.png" alt="prep1" className='img-fluid p-3' loading="lazy" />
             </div>
             <div className="col-md-6">
-              <img src={prep2} alt="prep2" className='img-fluid p-3' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/prep-2.png" alt="prep2" className='img-fluid p-3' loading="lazy" />
             </div>
           </div>
           <div className="d-flex items-center justify-content-between check-mob">
@@ -238,17 +226,9 @@ const Home = () => {
             src='https://ik.imagekit.io/ikmedia/example_video.mp4'
             className="full-page-video"
             controls
-            poster={thumb}
+            poster="https://vmassociatescbe.com/vm%20associates/images/video-thumb.png"
           />
 
-          {/* <video
-
-            className="full-page-video"
-            
-            controls
-          >
-            <source src="https://www.youtube.com/watch?v=W8sk2iNUSsc" type="video" />
-          </video> */}
         </section>
         <section>
           <div className="row">
@@ -268,7 +248,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <img src={listimg} alt="listimg" className='img-fluid p-0 md:p-5' loading="lazy" />
+              <img src="https://vmassociatescbe.com/vm%20associates/images/list-img.png" alt="listimg" className='img-fluid p-0 md:p-5' loading="lazy" />
             </div>
           </div>
         </section>

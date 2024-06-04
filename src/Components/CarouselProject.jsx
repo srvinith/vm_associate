@@ -1,7 +1,4 @@
 import React from 'react'
-import sliderOne from '../Assets/images/slider-1.png'
-import sliderTwo from '../Assets/images/slider-2.png'
-import sliderThree from '../Assets/images/slider-3.png'
 // import { FaArrowRightLong } from "react-icons/fa6";
 // import { FaArrowLeftLong } from "react-icons/fa6";
 import Carousel from "react-multi-carousel";
@@ -42,7 +39,7 @@ const CarouselProject = () => {
             <Carousel responsive={responsive} >
                 <div>
                     <div className="card-img">
-                        <img src={sliderOne} alt="slider-img" />
+                        <img src="https://vmassociatescbe.com/vm%20associates/images/slider-1.png" alt="slider-img" />
                         {/* <p className="card-text">
                             Interior Designing
                         </p> */}
@@ -50,7 +47,7 @@ const CarouselProject = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src={sliderTwo} alt="slider-img" />
+                        <img src="https://vmassociatescbe.com/vm%20associates/images/slider-2.png" alt="slider-img" />
                         {/* <p className="card-text">
                             Interior Designing
                         </p> */}
@@ -58,7 +55,7 @@ const CarouselProject = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src={sliderThree} alt="slider-img" />
+                        <img src="https://vmassociatescbe.com/vm%20associates/images/slider-3.png" alt="slider-img" />
                         {/* <p className="card-text">
                             Interior Designing
                         </p> */}
@@ -66,7 +63,7 @@ const CarouselProject = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src={sliderOne} alt="slider-img" />
+                        <img src="https://vmassociatescbe.com/vm%20associates/images/slider-1.png" alt="slider-img" />
                         {/* <p className="card-text">
                             Interior Designing
                         </p> */}

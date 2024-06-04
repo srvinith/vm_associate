@@ -1,7 +1,4 @@
 import React from 'react'
-import aboutTwo from '../Assets/images/about-2.png'
-import aboutthrid from '../Assets/images/about-third.png'
-import star from '../Assets/images/Star-1.svg'
 // import TextAnimation from './TextAnimation'
 
 const About = () => {
@@ -31,13 +28,13 @@ const About = () => {
                                 </p>
                             </div>
                             <div className="col-md-5">
-                                <img src={aboutTwo} alt="" loading="lazy" className='img-fluid' data-aos='fade-down' data-aos-delay='600' />
+                                <img src="https://vmassociatescbe.com/vm%20associates/images/about-2.png" alt="abouttwo" loading="lazy" className='img-fluid' data-aos='fade-down' data-aos-delay='600' />
                             </div>
                         </div>
 
                         <div className="row py-5">
                             <div className="col-md-5">
-                                <img src={aboutthrid} alt="about-img" loading="lazy" className='img-fluid mb-4 md:mb-0' data-aos='fade-down' data-aos-delay='800' onDurationChange='2s' />
+                                <img src="https://vmassociatescbe.com/vm%20associates/images/about-third.png" alt="about-img" loading="lazy" className='img-fluid mb-4 md:mb-0' data-aos='fade-down' data-aos-delay='800' onDurationChange='2s' />
                             </div>
                             <div className="col-md-7">
 
@@ -47,14 +44,14 @@ const About = () => {
                                 </div>
 
                                 <div className="about-third">
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='300'><p><img src={star} alt="star"  loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='300'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star"  loading='lazy'/></p>
                                         <p className='px-2'>If you are going to use a passage of Lorem
                                             you need to beanything embarrassing.</p>
                                     </div>
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='500'><p><img src={star} alt="star" loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='500'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star" loading='lazy'/></p>
                                         <p className='px-2'> Passage of Lorem, you need to beanything embarrassing.</p>
                                     </div>
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='700'><p><img src={star} alt="star" loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='700'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star" loading='lazy'/></p>
                                         <p className='px-2'> Are going to use a passage Lorem Ipsum, you need to beanything embarrassing.</p>
                                     </div>
 

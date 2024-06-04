@@ -1,5 +1,4 @@
 import React from 'react'
-import projiduImg from '../Assets/images/projindu-img.png'
 import CarouselDemo from './CarouselProject'
 
 const ProjectInd = () => {
@@ -19,7 +18,7 @@ const ProjectInd = () => {
                 <div className="container">
                     <div className="row my-5 ">
                         <div className="col-md-6" data-aos='fade-down' data-aos-delay='600'>
-                            <img src={projiduImg} alt="projectindu" className='img-fluid' />
+                            <img src="https://vmassociatescbe.com/vm%20associates/images/projindu-img.png" alt="projectindu" className='img-fluid' />
                         </div>
                         <div className="col-md-6">
 
