@@ -27,9 +27,7 @@ const Services = () => {
                                 </div>
                                 <h3 className='mb-3'>Space Planning</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                We offer innovative and comprehensive architecture design solutions, ensuring functional and aesthetic excellence in every project.</p>
                             </div>
                         </div>
                         <div className="col-md-4 mt-3">
@@ -39,9 +37,7 @@ const Services = () => {
                                 </div>
                                 <h3 className='mb-3'>Architect design</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                We provide innovative and comprehensive architecture design solutions, ensuring functional and aesthetic excellence in every project.</p>
                             </div>
                         </div>
                         <div className="col-md-4 mt-5">
@@ -51,9 +47,7 @@ const Services = () => {
                                 </div>
                                 <h3 className='mb-3'>Planning , Construction</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                We specialize in meticulous planning and expert construction services, ensuring projects are delivered on time and to the highest standards of quality.</p>
                             </div>
                         </div>
                     </div>
@@ -63,11 +57,9 @@ const Services = () => {
                                 <div className="box-circle-img mb-4">
                                     <img src="https://vmassociatescbe.com/vm%20associates/images/ic-4.png" alt="icon" />
                                 </div>
-                                <h3 className='mb-3'>Space Planning</h3>
+                                <h3 className='mb-3'>Pre-Design</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                Our Pre-Design services encompass thorough research and analysis, laying the groundwork for innovative and tailored architectural solutions. We prioritize client needs and project feasibility, ensuring a solid foundation for successful designs.</p>
                             </div>
                         </div>
                         <div className="col-md-4 mt-3">
@@ -75,11 +67,9 @@ const Services = () => {
                                 <div className="box-circle-img mb-4">
                                     <img src="https://vmassociatescbe.com/vm%20associates/images/ic-5.png" alt="icon" />
                                 </div>
-                                <h3 className='mb-3'>Architect design</h3>
+                                <h3 className='mb-3'>Schematic Design</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                Our Schematic Design phase entails creative exploration and conceptualization, translating ideas into preliminary architectural solutions. We focus on capturing client vision and functional requirements, shaping the initial framework for the project.</p>
                             </div>
                         </div>
                         <div className="col-md-4 mt-5">
@@ -87,11 +77,9 @@ const Services = () => {
                                 <div className="box-circle-img mb-4">
                                     <img src="https://vmassociatescbe.com/vm%20associates/images/ic-6.png" alt="icon" />
                                 </div>
-                                <h3 className='mb-3'>Planning , Construction</h3>
+                                <h3 className='mb-3'>Post-Occupancy,</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Mauris accumsan urna eu
-                                    pharetra elementum.</p>
+                                    We evaluate project performance and user satisfaction, refining designs based on feedback to enhance functionality and efficiency. Our comprehensive assessment ensures continued client satisfaction and optimal building operation</p>
                             </div>
                         </div>
                     </div>

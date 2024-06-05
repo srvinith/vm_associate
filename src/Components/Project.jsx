@@ -75,7 +75,7 @@ const Project = () => {
                                 <div className="">
                                     <h2 className='project-title-section' data-aos='fade-up' data-aos-delay='400'>The type of work <br /> we do</h2>
                                     <p className='project-sec-para' data-aos='fade-up' data-aos-delay='400'>
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.
+                                    Our work encompasses a diverse range of projects, spanning from residential and commercial construction to real estate development and renovation.With a focus on innovation and quality, we deliver exceptional results tailored to meet the unique needs of each client.
                                     </p>
                                     <hr />
                                 </div>
@@ -83,7 +83,7 @@ const Project = () => {
                                     <hr />
                                     <h2 className='project-title-section2' data-aos='fade-up' data-aos-delay='500'>Finest Quality</h2>
                                     <p className='project-sec-para' data-aos='fade-up' data-aos-delay='400'>
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum  repeat predefined.
+                                    Our commitment to delivering the finest quality is unwavering, ensuring every project meets the highest standards of excellence and craftsmanship.
                                     </p>
                                     <hr />
 
