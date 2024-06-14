@@ -1,5 +1,6 @@
 import React from 'react'
 import Testimonial from './Testimonial'
+import ServicesContainer from './ServicesContainer'
 
 const Services = () => {
     return (
@@ -19,7 +20,10 @@ const Services = () => {
                         <p className='sec-p'>services</p>
                         <h2>We do it best.</h2>
                     </div>
-                    <div className="row mt-5">
+
+                    <ServicesContainer/>
+
+                    {/* <div className="row mt-5">
                         <div className="col-md-4">
                             <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                 <div className="box-circle-img mb-4">
@@ -82,7 +86,7 @@ const Services = () => {
                                     We evaluate project performance and user satisfaction, refining designs based on feedback to enhance functionality and efficiency. Our comprehensive assessment ensures continued client satisfaction and optimal building operation</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="services-third-sec">
                     <div className="container">
@@ -92,6 +96,7 @@ const Services = () => {
                         </h3>
                     </div>
                 </div>
+               
                 <div className="testimonial">
                 <Testimonial/>
                 </div>
