@@ -2,6 +2,17 @@ import React, { useState } from 'react'
 import dplan from '../Assets/images/3dplan.png'
 import consulnt from '../Assets/images/cons.jpg'
 import inov from '../Assets/images/inov.jpg'
+import one from '../Assets/images/1.jpg'
+import two from '../Assets/images/2.jpeg'
+import three from '../Assets/images/3.webp'
+import four from '../Assets/images/4.jpg'
+import five from '../Assets/images/5.jpg'
+import six from '../Assets/images/6.webp'
+import seven from '../Assets/images/7.jpg'
+import eight from '../Assets/images/8.jpg'
+import nine from '../Assets/images/9.jpg'
+import ten from '../Assets/images/10.jpg'
+import level from '../Assets/images/11.jpg'
 
 const ServicesContainer = () => {
     const [activeSection, setActiveSection] = useState('construction');
@@ -81,7 +92,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={one} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                             Handrail glazing
@@ -91,7 +102,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4 mt-3">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={two} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                                 SS Works
@@ -101,7 +112,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4 mt-5">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={three} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                                MS Works
@@ -113,7 +124,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={four} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                             Modulation Kitchen
@@ -123,7 +134,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4 mt-3">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={five} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                             Wardrobe
@@ -133,7 +144,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4 mt-5">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={six} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                                TV Unit
@@ -145,7 +156,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={seven} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                             Pooja Unit
@@ -155,7 +166,7 @@ const ServicesContainer = () => {
                                     <div className="col-md-4 mt-3">
                                         <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                             <div className="box-center-ser-img">
-                                                <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                                <img src={eight} alt="2d & 3d plan" className='img-fluid' />
                                             </div>
                                             <div className="bottom-box-ser">
                                             Aluminium Partition Works
@@ -187,7 +198,7 @@ const ServicesContainer = () => {
                                 <div className="col-md-4">
                                     <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                         <div className="box-center-ser-img">
-                                            <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                            <img src={nine} alt="2d & 3d plan" className='img-fluid' />
                                         </div>
                                         <div className="bottom-box-ser">
                                             ACP
@@ -197,7 +208,7 @@ const ServicesContainer = () => {
                                 <div className="col-md-4 mt-3">
                                     <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                         <div className="box-center-ser-img">
-                                            <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                            <img src={ten} alt="2d & 3d plan" className='img-fluid' />
                                         </div>
                                         <div className="bottom-box-ser">
                                         Structural Glazing
@@ -207,7 +218,7 @@ const ServicesContainer = () => {
                                 <div className="col-md-4 mt-5">
                                     <div className="box-service" data-aos='fade-up' data-aos-delay='400'>
                                         <div className="box-center-ser-img">
-                                            <img src={dplan} alt="2d & 3d plan" className='img-fluid' />
+                                            <img src={level} alt="2d & 3d plan" className='img-fluid' />
                                         </div>
                                         <div className="bottom-box-ser">
                                             Skylights
