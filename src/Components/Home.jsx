@@ -15,6 +15,7 @@ import prjb2 from '../Assets/images/prjb-2.png'
 import prep1 from '../Assets/images/prep-1.png'
 import prep2 from '../Assets/images/prep-2.png'
 import listimg from '../Assets/images/list-img.png'
+import videothumb from '../Assets/images/video-thumb.png'
 // import Splitting from 'splitting';
 // import '../../node_modules/splitting/dist/splitting.css';
 // import ScrollOut from 'scroll-out';
@@ -237,7 +238,7 @@ const Home = () => {
             src='https://ik.imagekit.io/ikmedia/example_video.mp4'
             className="full-page-video"
             controls
-            poster="https://vmassociatescbe.com/vm%20associates/images/video-thumb.png"
+            poster={videothumb}
           />
 
         </section>
