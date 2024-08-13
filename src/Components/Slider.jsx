@@ -3,6 +3,9 @@ import Carousel from "react-multi-carousel";
 import '../../node_modules/react-multi-carousel/lib/styles.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import card1 from '../Assets/images/card-1.png'
+import card2 from '../Assets/images/card-2.png'
+import card3 from '../Assets/images/card-3.png'
 
 
 const Slider = () => {
@@ -58,7 +61,7 @@ const Slider = () => {
             >
                 <div>
                     <div className="card-img" >
-                        <img src="https://vmassociatescbe.com/vm%20associates/images/card-1.png" alt="slider-img" />
+                        <img src={card1} alt="slider-img" />
                         <p className="card-text">
                             Commerical Building
                         </p>
@@ -66,7 +69,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src="https://vmassociatescbe.com/vm%20associates/images/card-2.png" alt="slider-img" />
+                        <img src={card2} alt="slider-img" />
                         <p className="card-text">
                         Residential Building
                         </p>
@@ -74,7 +77,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src="https://vmassociatescbe.com/vm%20associates/images/card-3.png" alt="slider-img" />
+                        <img src={card3} alt="slider-img" />
                         <p className="card-text">
                             Villas
                         </p>
@@ -82,7 +85,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src="https://vmassociatescbe.com/vm%20associates/images/card-1.png" alt="slider-img" />
+                        <img src={card1} alt="slider-img" />
                         <p className="card-text">
                         Appratment
                         </p>
@@ -90,7 +93,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src="https://vmassociatescbe.com/vm%20associates/images/card-1.png" alt="slider-img" />
+                        <img src={card1} alt="slider-img" />
                         <p className="card-text">
                             Interior Designing
                         </p>

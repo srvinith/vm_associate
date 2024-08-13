@@ -1,6 +1,7 @@
 import React from 'react'
 import Testimonial from './Testimonial'
 import ServicesContainer from './ServicesContainer'
+import fourth from '../Assets/images/fourth.png'
 
 const Services = () => {
     return (
@@ -106,7 +107,7 @@ const Services = () => {
                         <center>
                             <h2 className='fourth-sec-title' data-aos='fade-up' data-aos-delay='400'>Let us help you build.</h2>
                             <p data-aos='fade-up' data-aos-delay='600'>Over 17 years of experience in creating spaces that positively impact people’s lives</p>
-                            <img src="https://vmassociatescbe.com/vm%20associates/images/fourth.png" alt="fourth" loading='lazy' className='img-fluid fourth-img' />
+                            <img src={fourth} alt="fourth" loading='lazy' className='img-fluid fourth-img' />
                         </center>
                     </div>
                 </div>

@@ -8,6 +8,7 @@ import { IoMdClose } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import { IoCloseSharp } from "react-icons/io5";
+import Logo from '../Assets/images/logo.png'
 // import { faHourglassEmpty } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -46,7 +47,7 @@ function Header() {
     <div className="position-absolute top-0 end-0 w-100 navbar-top ">
       <Navbar expand="lg" className="text-white" expanded={expanded}>
         <Container>
-          <Navbar.Brand className="text-white fs-3" href="/"><img src="https://vmassociatescbe.com/vm%20associates/images/logo.png" alt="logo" className='img-fluid logo' /></Navbar.Brand>
+          <Navbar.Brand className="text-white fs-3" href="/"><img src={Logo} alt="logo" className='img-fluid logo' /></Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(!expanded)}

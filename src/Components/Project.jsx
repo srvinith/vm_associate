@@ -1,4 +1,11 @@
 import React from 'react'
+import projectcard1 from '../Assets/images/project-card-1.png'
+import projectcard2 from '../Assets/images/project-card-2.png'
+import projectcard3 from '../Assets/images/project-card-3.png'
+import projectcard4 from '../Assets/images/project-card-4.png'
+import projectsec from '../Assets/images/project-second-img.png'
+import proj1 from '../Assets/images/proj-1.png'
+import proj2 from '../Assets/images/proj-2.png'
 
 
 const Project = () => {
@@ -32,28 +39,28 @@ const Project = () => {
                         <div className="col-md-9">
                             <div className="wrapper-card">
                                 <a className="cardss" data-aos='fade-up' data-aos-delay='400' href='projectindu'>
-                                    <img src="https://vmassociatescbe.com/vm%20associates/images/project-card-1.png" alt="card-img" loading='lazy' className='img-fluid' />
+                                    <img src={projectcard1} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Wildstone Infra Hotel</h6>
                                         <p>2715 Ash Dr. San Jose, South Dakota</p>
                                     </div>
                                 </a>
                                 <div className="cardss " data-aos='fade-up' data-aos-delay='600'>
-                                    <img src="https://vmassociatescbe.com/vm%20associates/images/project-card-2.png" alt="card-img" loading='lazy' className='img-fluid' />
+                                    <img src={projectcard2} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Wish Stone Building</h6>
                                         <p>2972 Westheimer Rd. Santa Ana, Illinois </p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='400'>
-                                    <img src="https://vmassociatescbe.com/vm%20associates/images/project-card-3.png" alt="card-img" loading='lazy' className='img-fluid' />
+                                    <img src={projectcard3} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Mr. Parkinston’s House</h6>
                                         <p>3517 W. Gray St. Utica, Pennsylvania</p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='600'> 
-                                    <img src="https://vmassociatescbe.com/vm%20associates/images/project-card-4.png" alt="card-img" loading='lazy' className='img-fluid' />
+                                    <img src={projectcard4} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Oregano Height</h6>
                                         <p>2464 Royal Ln. Mesa, New Jersey</p>
@@ -68,7 +75,7 @@ const Project = () => {
                     <div className="row my-5">
 
                         <div className="col-md-5">
-                            <img src="https://vmassociatescbe.com/vm%20associates/images/project-second-img.png" alt="cardImg" loading='lazy' className='card-second-img' data-aos='fade-left' data-aos-delay='400'/>
+                            <img src={projectsec} alt="cardImg" loading='lazy' className='card-second-img' data-aos='fade-left' data-aos-delay='400'/>
                         </div>
                         <div className="col-md-7">
                             <div className="p-4 list-para">
@@ -102,10 +109,10 @@ const Project = () => {
 
                     <div className="row my-5">
                         <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
-                            <img src="https://vmassociatescbe.com/vm%20associates/images/proj-1.png" alt="proj-img" loading='lazy' className='img-fluid mob-img'  />
+                            <img src={proj1} alt="proj-img" loading='lazy' className='img-fluid mob-img'  />
                         </div>
                         <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
-                            <img src="https://vmassociatescbe.com/vm%20associates/images/proj-2.png" alt="proj-img" loading='lazy' className='img-fluid' />
+                            <img src={proj2} alt="proj-img" loading='lazy' className='img-fluid' />
                         </div>
                     </div>
                 </div>

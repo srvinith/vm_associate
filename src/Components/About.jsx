@@ -1,5 +1,9 @@
 import React from 'react'
 // import TextAnimation from './TextAnimation'
+import about2 from '../Assets/images/about-2.png'
+import aboutthird from '../Assets/images/about-third.png'
+import star from '../Assets/images/Star-1.svg'
+
 
 const About = () => {
 
@@ -31,13 +35,13 @@ const About = () => {
                                 </p>
                             </div>
                             <div className="col-md-5">
-                                <img src="https://vmassociatescbe.com/vm%20associates/images/about-2.png" alt="abouttwo" loading="lazy" className='img-fluid' data-aos='fade-down' data-aos-delay='600' />
+                                <img src={about2} alt="abouttwo" loading="lazy" className='img-fluid' data-aos='fade-down' data-aos-delay='600' />
                             </div>
                         </div>
 
                         <div className="row py-5">
                             <div className="col-md-5">
-                                <img src="https://vmassociatescbe.com/vm%20associates/images/about-third.png" alt="about-img" loading="lazy" className='img-fluid mb-4 md:mb-0' data-aos='fade-down' data-aos-delay='800' onDurationChange='2s' />
+                                <img src={aboutthird} alt="about-img" loading="lazy" className='img-fluid mb-4 md:mb-0' data-aos='fade-down' data-aos-delay='800' onDurationChange='2s' />
                             </div>
                             <div className="col-md-7">
 
@@ -47,13 +51,13 @@ const About = () => {
                                 </div>
 
                                 <div className="about-third">
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='300'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star"  loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='300'><p><img src={star} alt="star"  loading='lazy'/></p>
                                         <p className='px-2'>Recognition for Sustainable Practices.</p>
                                     </div>
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='500'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star" loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='500'><p><img src={star} alt="star" loading='lazy'/></p>
                                         <p className='px-2'>Architectural Excellence.</p>
                                     </div>
-                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='700'><p><img src="https://vmassociatescbe.com/vm%20associates/images/Star-1.svg" alt="star" loading='lazy'/></p>
+                                    <div className='d-flex py-3' data-aos='fade-up' data-aos-delay='700'><p><img src={star} alt="star" loading='lazy'/></p>
                                         <p className='px-2'>Client Satisfaction and Trust.</p>
                                     </div>
 

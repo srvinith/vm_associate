@@ -43,7 +43,7 @@ const Footer = () => {
               <div className="foot-last">
                 <a href='tel:+919788220868'><span className='me-3 footicon'><IoIosCall/></span><span>97882 20868</span></a> <br />
                 <a href='mailto:info.vmassociatescbe@gmail.com'><span className='me-3 footicon'><MdOutlineMail/></span><span>info.vmassociatescbe@gmail.com</span></a><br />
-                <a href=''><span className='me-3 footicon'><FaInstagram/></span><span>vmassociatescbe</span></a> <br />
+                <a href='https://www.instagram.com/vmassociatescbe?igsh=d3BjYTVkN2FvbWNr'><span className='me-3 footicon'><FaInstagram/></span><span>vmassociatescbe</span></a> <br />
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="bottom-li small-color">
 
-          <p>@vmassociates 2024 - developed by Illusiview</p>
+          <p>&copy;vmassociates 2024 - developed by Illusiview</p>
         </div>
       </footer>
     </>

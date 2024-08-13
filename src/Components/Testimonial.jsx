@@ -1,32 +1,36 @@
 import React, { useState } from 'react'
+import testi1 from '../Assets/images/testi-1.png'
+import testi2 from '../Assets/images/testi-2.png'
+import testi3 from '../Assets/images/testi-3.png'
+import testi4 from '../Assets/images/testi-4.png'
 
 const Testimonial = () => {
     const testi = [
         {
             id: 1,
             desc: '   We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product. 1',
-            img: "https://vmassociatescbe.com/vm%20associates/images/testi-1.png",
+            img: testi1,
             name: 'Jane Cooper',
             desgination: 'CEO, ABC Corporation'
         },
         {
             id: 2,
             desc: '   We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product. 2',
-            img: "https://vmassociatescbe.com/vm%20associates/images/testi-2.png",
+            img: testi2,
             name: 'Jane Cooper',
             desgination: 'CEO, ABC Corporation'
         },
         {
             id: 3,
             desc: '   We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level t. 3',
-            img: "https://vmassociatescbe.com/vm%20associates/images/testi-3.png",
+            img: testi3,
             name: 'Jane Cooper',
             desgination: 'CEO, ABC Corporation'
         },
         {
             id: 4,
             desc: '   We had an incredible experience working with them and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product. 4',
-            img: "https://vmassociatescbe.com/vm%20associates/images/testi-4.png",
+            img: testi4,
             name: 'Jane Cooper',
             desgination: 'CEO, ABC Corporation'
         }
