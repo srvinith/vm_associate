@@ -589,7 +589,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .bottom-li p {
@@ -1084,7 +1084,7 @@ footer {
   }
 
   footer {
-    height: 110vh;
+    height:auto;
   }
 
   footer ul li {
