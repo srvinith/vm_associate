@@ -1067,6 +1067,11 @@ footer {
     height: 50vh;
   }
 
+  .project-showcase {
+    list-style: none;
+    visibility: hidden;
+}
+
   .center-footer-text {
     font-size: 30px;
     height: 50vh;

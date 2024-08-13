@@ -14,8 +14,8 @@ const Project = () => {
             <div className="top-section project">
                 <div className="container">
                     <div className="service-main-text">
-                        <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>Projects</p>
-                        <h2 className='' data-aos='fade-right' data-aos-delay='400'>Construct Design <br />
+                        <p className='sec-p' data-aos='fade-up' data-aos-delay='400'>Projects</p>
+                        <h2 className='' data-aos='fade-down' data-aos-delay='400'>Construct Design <br />
                             that matters.</h2>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Project = () => {
                 <div className="container">
                     <div className="service-sec-title">
                         <p className='sec-p' data-aos='fade-up' data-aos-delay='400'>Projects</p>
-                        <h2 data-aos='fade-left' data-aos-delay='500'>We do it best.</h2>
+                        <h2 data-aos='fade-down' data-aos-delay='500'>We do it best.</h2>
                     </div>
 
                     <div className="row my-5">

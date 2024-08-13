@@ -9,8 +9,8 @@ const Services = () => {
             <div className="top-section service">
                 <div className="container">
                     <div className="service-main-text">
-                        <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>Services</p>
-                        <h2 className='' data-aos='fade-right' data-aos-delay='400'>Construct Design <br />
+                        <p className='sec-p' data-aos='fade-up' data-aos-delay='400'>Services</p>
+                        <h2 className='' data-aos='fade-down' data-aos-delay='400'>Construct Design <br />
                             that matters.</h2>
                     </div>
                 </div>
@@ -91,8 +91,8 @@ const Services = () => {
                 </div>
                 <div className="services-third-sec">
                     <div className="container">
-                        <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>About nside</p>
-                        <h3 className='third-bg-text' data-aos='fade-right' data-aos-delay='400'>We're innovating the way <br />
+                        <p className='sec-p' data-aos='fade-up' data-aos-delay='400'>About nside</p>
+                        <h3 className='third-bg-text' data-aos='fade-down' data-aos-delay='400'>We're innovating the way <br />
                             Of Construction .
                         </h3>
                     </div>

@@ -41,7 +41,7 @@ const About = () => {
               <div className="top-section About">
                     <div className="container">
                         <div className="service-main-text">
-                            <p className='sec-p' data-aos='fade-left' data-aos-delay='400'>About us</p>
+                            <p className='sec-p' data-aos='fade-up' data-aos-delay='400'>About us</p>
                             <h2 className=''  >Our  Construction
                                 Studio</h2>
                         </div>
