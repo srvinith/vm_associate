@@ -1299,7 +1299,14 @@ footer {
     width: 40px;
     height: 40px;
   }
-
+  .proj-banner {
+    background-image: url("./Assets/images/project-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
   .mob-sec-p {
     padding: 0;
     margin: 0;

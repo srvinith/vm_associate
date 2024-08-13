@@ -108,10 +108,10 @@ const Project = () => {
                     </div>
 
                     <div className="row my-5">
-                        <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
+                        <div className="col-md-6">
                             <img src={proj1} alt="proj-img" loading='lazy' className='img-fluid mob-img'  />
                         </div>
-                        <div className="col-md-6" data-aos='fade-left' data-aos-delay='600'>
+                        <div className="col-md-6" >
                             <img src={proj2} alt="proj-img" loading='lazy' className='img-fluid' />
                         </div>
                     </div>
