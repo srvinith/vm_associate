@@ -4,8 +4,11 @@ import '../../node_modules/react-multi-carousel/lib/styles.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import card1 from '../Assets/images/card-1.png'
+import vilas from '../Assets/new-img/vilas-1.jpg'
+import Commerical from '../Assets/new-img/commercial.jpg'
+import interior from '../Assets/new-img/interior.jpeg'
 import card2 from '../Assets/images/card-2.png'
-import card3 from '../Assets/images/card-3.png'
+// import card3 from '../Assets/images/card-3.png'
 
 
 const Slider = () => {
@@ -61,7 +64,7 @@ const Slider = () => {
             >
                 <div>
                     <div className="card-img" >
-                        <img src={card1} alt="slider-img" />
+                        <img src={Commerical} alt="slider-img" />
                         <p className="card-text">
                             Commerical Building
                         </p>
@@ -77,7 +80,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src={card3} alt="slider-img" />
+                        <img src={vilas} alt="slider-img" />
                         <p className="card-text">
                             Villas
                         </p>
@@ -93,7 +96,7 @@ const Slider = () => {
                 </div>
                 <div>
                     <div className="card-img">
-                        <img src={card1} alt="slider-img" />
+                        <img src={interior} alt="slider-img" />
                         <p className="card-text">
                             Interior Designing
                         </p>

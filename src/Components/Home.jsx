@@ -5,8 +5,8 @@ import Marquee from 'react-fast-marquee'
 import gsap from 'gsap/all'
 import CounterNum from './CounterNum'
 import HomeBg  from '../Assets/images/second-bg.png'
-import sec1 from '../Assets/images/sec-1.png'
-import sec2 from '../Assets/images/sec-2.png'
+import sec1 from '../Assets/new-img/sec-2.jpg'
+import sec2 from '../Assets/new-img/vilas.jpg'
 import prj1 from '../Assets/images/prj-1.png'
 import prj2 from '../Assets/images/prj-2.png'
 import prj3 from '../Assets/images/prj-3.png'
@@ -154,7 +154,7 @@ const Home = () => {
           <div className="projects-title">ON GOING PROJECTS</div>
           <div className="section-title mt-3 mb-5">
 
-            WE DESIGN UNIQUE PLACES <br /> THAT TELL A STORY
+          Foundations of Tomorrow<br /> Ongoing Projects
           </div>
 
           <div className="img-boxes">
