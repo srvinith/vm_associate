@@ -36,17 +36,17 @@ function AccordionWithIcons() {
         {
             id:1,
             title:"What types of construction projects does your company specialize in?",
-            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. Consectetur mollitia fugit id tempora ut. Delectus."
+            desc:"Our company specializes in a diverse range of construction projects, including residential, commercial, and industrial developments. We are committed to delivering high-quality craftsmanship tailored to meet the unique needs of each sector."
         },
         {
             id:2,
             title:"What sets your company apart from others in the industry?",
-            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. Consectetur mollitia fugit id tempora ut. Delectus."
+            desc:"Our company stands out in the industry due to our unwavering commitment to quality, innovation, and customer satisfaction. We combine cutting-edge technology with experienced craftsmanship to deliver projects that exceed expectations."
         },
         {
             id:3,
             title:"What is your approach to sustainability in construction?",
-            desc:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur delectus soluta quos cumque. ,Consectetur mollitia fugit id tempora ut. Delectus."
+            desc:"Our approach to sustainability in construction focuses on using eco-friendly materials and energy-efficient practices, ensuring minimal environmental impact while delivering high-performance buildings. We prioritize long-term sustainability by integrating green technologies and promoting responsible resource management."
         },
     ]
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import projectcard1 from '../Assets/images/project-card-1.png'
-import projectcard2 from '../Assets/images/project-card-2.png'
-import projectcard3 from '../Assets/images/project-card-3.png'
+import projectcard1 from '../Assets/image/comp-1.png'
+import projectcard2 from '../Assets/image/compl-2.png'
+import projectcard3 from '../Assets/image/compl-3.png'
 import projectcard4 from '../Assets/images/project-card-4.png'
-import projectsec from '../Assets/images/project-second-img.png'
-import proj1 from '../Assets/images/proj-1.png'
-import proj2 from '../Assets/images/proj-2.png'
+import projectsec from '../Assets/image/side-img.png'
+import proj1 from '../Assets/image/ongoing-2.jpg'
+import proj2 from '../Assets/image/ongoing-22.png'
 
 
 const Project = () => {
@@ -31,9 +31,9 @@ const Project = () => {
                         <div className="col-md-3">
                             <ul className='project-showcase'>
                                 <li className='active-card'>All</li>
-                                <li>Commercial</li>
+                                {/* <li>Commercial</li>
                                 <li>Residential</li>
-                                <li>Other</li>
+                                <li>Other</li> */}
                             </ul>
                         </div>
                         <div className="col-md-9">
@@ -41,29 +41,29 @@ const Project = () => {
                                 <a className="cardss" data-aos='fade-up' data-aos-delay='400' href='projectindu'>
                                     <img src={projectcard1} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
-                                        <h6>Wildstone Infra Hotel</h6>
-                                        <p>2715 Ash Dr. San Jose, South Dakota</p>
+                                        <h6>CSV Hostel</h6>
+                                        <p>Coimbatore</p>
                                     </div>
                                 </a>
                                 <div className="cardss " data-aos='fade-up' data-aos-delay='600'>
                                     <img src={projectcard2} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Wish Stone Building</h6>
-                                        <p>2972 Westheimer Rd. Santa Ana, Illinois </p>
+                                        <p>Coimbatore </p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='400'>
                                     <img src={projectcard3} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Mr. Parkinston’s House</h6>
-                                        <p>3517 W. Gray St. Utica, Pennsylvania</p>
+                                        <p>Coimbatore</p>
                                     </div>
                                 </div>
                                 <div className="cardss" data-aos='fade-up' data-aos-delay='600'> 
                                     <img src={projectcard4} alt="card-img" loading='lazy' className='img-fluid' />
                                     <div className="bot-card">
                                         <h6>Oregano Height</h6>
-                                        <p>2464 Royal Ln. Mesa, New Jersey</p>
+                                        <p>Coimbatore</p>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ const Project = () => {
                     <div className="container">
                         <div className="project-banner-sec">
                             <h2 data-aos='fade-up' data-aos-delay='400'>Free consultation with exceptional quality</h2>
-                            <button data-aos='fade-up' data-aos-delay='400'>Get your consultation</button>
+                           <a href="tel:+919788220868"><button data-aos='fade-up' data-aos-delay='400'>Get your consultation</button></a> 
 
                         </div>
                     </div>
