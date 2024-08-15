@@ -5,17 +5,17 @@ import Marquee from 'react-fast-marquee'
 import gsap from 'gsap/all'
 import CounterNum from './CounterNum'
 import HomeBg  from '../Assets/images/second-bg.png'
-import sec1 from '../Assets/new-img/sec-2.jpg'
-import sec2 from '../Assets/new-img/vilas.jpg'
-import prj1 from '../Assets/images/prj-1.png'
-import prj2 from '../Assets/images/prj-2.png'
-import prj3 from '../Assets/images/prj-3.png'
-import prjb1 from '../Assets/images/prjb-1.png'
-import prjb2 from '../Assets/images/prjb-2.png'
-import prep1 from '../Assets/images/prep-1.png'
-import prep2 from '../Assets/images/prep-2.png'
-import listimg from '../Assets/images/list-img.png'
-import videothumb from '../Assets/images/video-thumb.png'
+import sec1 from '../Assets/image/villas.jpg'
+import sec2 from '../Assets/image/archi.jpg'
+import prj1 from '../Assets/image/ongoing-1-e.png'
+import prj2 from '../Assets/image/ongoing-2.jpg'
+import prj3 from '../Assets/image/ongoing-3.jpg'
+import prjb1 from '../Assets/image/interior-e.png'
+import prjb2 from '../Assets/image/villas.jpg'
+import prep1 from '../Assets/image/second-place-e.png'
+import prep2 from '../Assets/image/commercial.jpg'
+import listimg from '../Assets/image/home-final.png'
+import videothumb from '../Assets/image/interior-e.png'
 // import Splitting from 'splitting';
 // import '../../node_modules/splitting/dist/splitting.css';
 // import ScrollOut from 'scroll-out';
@@ -114,7 +114,8 @@ const Home = () => {
               <div className="section-title" data-aos='fade-up' data-aos-delay='400' >
                 Address the designs
               </div>
-              <p data-aos='fade-up' data-aos-delay='600' className='pt-3'>Immerse yourself in pinnacle of Quality and Luxury in our premium designs.A harmonious blend of style and functionality is the hallmark of our design service. We don't just build structures, we create enduring legacies through exceptional design.
+              <p data-aos='fade-up' data-aos-delay='600' className='pt-3'>Immerse yourself in pinnacle of Quality and Luxury in our premium designs.A harmonious blend of style and functionality is the hallmark of our design service. We don't just build structures, we create enduring legacies through exceptional design. <br /><br/>
+              Our premium designs are more than just beautiful—they are a testament to the art of seamless integration between elegance and practicality. We don't merely construct buildings; we sculpt spaces that stand as timeless monuments of sophistication and innovation, leaving an indelible mark for generations to admire.
               </p>
             </div>
             <div className="col-md-6 px-1 md:px-5 mt-2 md:mt-0">
@@ -193,11 +194,11 @@ const Home = () => {
           <div className="date-sec d-flex items-center mt-4 mb-2">
             <div className="">
               <p>DATE</p>
-              <p>AUG 2023</p>
+              <p>MAR 2024</p>
             </div>
             <div className="mx-5">
               <p>LOCATION</p>
-              <p>Los Angels</p>
+              <p>Coimbatore</p>
             </div>
           </div>
 
@@ -216,11 +217,11 @@ const Home = () => {
             <div className="date-sec d-flex items-center mt-4 mb-2">
               <div className="">
                 <p>DATE</p>
-                <p>AUG 2023</p>
+                <p>AUG 2024</p>
               </div>
               <div className="mx-5">
                 <p>LOCATION</p>
-                <p>Los Angels</p>
+                <p>Coimbatore</p>
               </div>
             </div>
           </div>
@@ -247,10 +248,8 @@ const Home = () => {
             <div className="col-md-6">
               <div className="main-list p-2 md:p-5">
                 <div className="">
-                  <small>34 West Menlo — SF, CA</small>
-                  <p className='fs-5 fw-semibold'>Lorem ipsum dolor sit amet tellus <br />
-                    consectetur. Non ut sem tellus velit <br />
-                    tempus curabitur integer </p>
+                  <small>No.2,Ground Floor, Mahalakshmi Enclave </small>
+                  <p className='fs-5 fw-semibold'>Near Kumaran Mahal, <br /> Kovaipudur, <br />Coimbatore - 641042 . </p>
                 </div>
                 <div className="">
                   <small>PHONE / EMAIL</small>
